@@ -1,0 +1,62 @@
+<div class="offset0 span8" svg-tooltip>
+    <svg ng-if="anySessionModelHasOptimizationResults()"
+        gridsearch-curve
+        class="gridsearch-curve"
+        all-models="selection.allObjects"
+        selected-model="selection.selectedObject"
+        session-id="sessionTask.sessionId"
+         evaluation-metric-lower-is-better="libMetric(uiState.evaluationMetricId, sessionTask.modeling.metrics.customMetrics)"
+    ></svg>
+    <div class="session-detail-body__optimization-empty-state" ng-if="!anySessionModelHasOptimizationResults()">
+        Optimization results will appear as soon as they are available.
+    </div>
+</div>
+<div class="offset0 span4 models-ranking h100 oa">
+    <ul class="list-std w100">
+        <li ng-repeat="model in orderedModels" ng-mouseenter="selection.selectedObject = model" class="horizontal-flex">
+            <div class="flex mx-textellipsis">
+                <span class="model-color-bullet mbot4 selectable" ng-class="{'selected' : selection.selectedObject == model}" style="border-color: {{model.color}}"></span>
+                <span ng-show="model.trainInfo.state == 'DONE'">
+                    <a href="{{$state.href(sRefPrefix + (snippetSource === 'SAVED' ? '' : '.model') + '.report', {'fullModelId':model.fullModelId})}}">
+                        {{model.userMeta.name}}
+                        <small ng-if="model.partitionedModelEnabled">({{ model.partitionName }})</small>
+                    </a>
+                    <span ng-show="model.gridLength === 1 && !model.pluginAlgoCustomGridSearch" title="This model is not configured to optimize hyperparameters and will not appear in the optimization chart" toggle="tooltip" container="body">
+                        (no xval.)
+                    </span>
+                </span>
+                <span ng-show="model.trainInfo.state != 'DONE'">
+                    {{model.userMeta.name}}
+                    <small ng-if="model.partitionedModelEnabled">({{ model.partitionName }})</small>
+                    <span ng-show="model.gridLength === 1 && !model.pluginAlgoCustomGridSearch" title="This model is not configured to optimize hyperparameters and will not appear in the optimization chart" toggle="tooltip" container="body">
+                        (no xval.)
+                    </span>
+                </span>
+            </div>
+            <div class="noflex padleft4 tar">
+                <span ng-show="model.trainInfo.state == 'DONE'">
+                    <i class="icon-trophy" ng-if="isBestModelScore(model, true)"></i>
+                    <i class="icon-dku-weight" ng-if="model.sampleWeightsEnabled || model.inversePropensityWeightsEnabled"></i>
+                    {{model.mainMetric | mlMetricFormat
+                    :uiState.currentMetric
+                    :(uiState.currentMetric.substr(0, 3) === 'NB_' ? 0 : 3)
+                    :snippetData.mainMetricStd}}
+                </span>
+                <small ng-show="model.trainInfo.state == 'RUNNING'">
+                    {{model.trainInfo.progress.stack[0].name}}...
+                    <span ng-show="isModelOptimizing(model)">({{model.gridsearchData.gridPoints.length}}/{{model.gridsearchData.gridSize !== 0 ? model.gridsearchData.gridSize : "?"}})</span>
+                </small>
+                <small ng-show="model.trainInfo.state == 'FAILED'" class="text-error">
+                    Failed
+                </small>
+                <small ng-show="model.trainInfo.state == 'ABORTED'" class="text-error">
+                    Aborted
+                </small>
+                <small ng-show="model.trainInfo.state == 'PENDING'">
+                    Pending...
+                </small>
+
+            </div>
+        </li>
+    </ul>
+</div>

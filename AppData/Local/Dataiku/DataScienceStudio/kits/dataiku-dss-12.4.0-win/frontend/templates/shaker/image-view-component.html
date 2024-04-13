@@ -1,0 +1,32 @@
+<div class="image-view-container">
+    <ng2-object-detection-dataset-view-explore-images
+                                     ng-if="$ctrl.imageViewSettings.annotationParams.enabled && $ctrl.imageViewSettings.annotationParams.annotationType === 'OBJECT_DETECTION'"
+                                     [image-view-settings]="$ctrl.imageViewSettings"
+                                     [input-dataset-name]="$ctrl.inputDatasetName"
+                                     [input-dataset-project-key]="$ctrl.inputDatasetProjectKey"
+                                     [script]="$ctrl.resolvedScript"
+                                     [nb-columns-in-dataset]="$ctrl.nbColumnsInDataset"
+                                     [requested-sample-id]="$ctrl.requestedSampleId"
+                                     [filters]="$ctrl.filters">
+    </ng2-object-detection-dataset-view-explore-images>
+    <ng2-image-classification-dataset-view-explore-images
+                                     ng-if="$ctrl.imageViewSettings.annotationParams.enabled && $ctrl.imageViewSettings.annotationParams.annotationType === 'IMAGE_CLASSIFICATION'"
+                                     [image-view-settings]="$ctrl.imageViewSettings"
+                                     [input-dataset-name]="$ctrl.inputDatasetName"
+                                     [input-dataset-project-key]="$ctrl.inputDatasetProjectKey"
+                                     [script]="$ctrl.resolvedScript"
+                                     [nb-columns-in-dataset]="$ctrl.nbColumnsInDataset"
+                                     [requested-sample-id]="$ctrl.requestedSampleId"
+                                     [filters]="$ctrl.filters">
+    </ng2-image-classification-dataset-view-explore-images>
+    <ng2-simple-dataset-view-explore-images
+                                     ng-if="!$ctrl.imageViewSettings.annotationParams.enabled"
+                                     [image-view-settings]="$ctrl.imageViewSettings"
+                                     [input-dataset-name]="$ctrl.inputDatasetName"
+                                     [input-dataset-project-key]="$ctrl.inputDatasetProjectKey"
+                                     [script]="$ctrl.resolvedScript"
+                                     [nb-columns-in-dataset]="$ctrl.nbColumnsInDataset"
+                                     [requested-sample-id]="$ctrl.requestedSampleId"
+                                     [filters]="$ctrl.filters">
+    </ng2-simple-dataset-view-explore-images>
+</div>

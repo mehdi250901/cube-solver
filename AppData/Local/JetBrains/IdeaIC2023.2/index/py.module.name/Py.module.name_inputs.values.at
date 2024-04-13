@@ -1,0 +1,226 @@
+rimental_v2apiutiltpu
+tpu_configtpu_contexttpu_estimatorerror_handling_tpu_estimator_embeddingiteration_count_estimatorhead	base_head
+head_utils
+multi_headregression_headsequential_headmulti_class_headmulti_label_headbinary_class_headgchookshookssession_run_hookfake_summary_writerbasic_session_run_hookstools	analyticscheckpoint_converterv1dnn_testing_utils_v1linear_testing_utils_v1dnnrnnhead	kmeans	linearheadmodel
+timeseriesar_model
+estimators
+math_utilsmodel_utilsfeature_keysstate_managementsaved_model_utils	cannedbaseline
+optimizersmetric_keysutilssdca_ops"sharded_mutable_dense_hashtable	pythonlinear_optimizerparsing_utilsprediction_keysdnn_testing_utilsdnn_linear_combinedlinear_testing_utilssaved_model_estimator	export	exportfunction
+export_libexport_output	queuesfeeding_functionsfeeding_queue_runner	inputs	inputsnumpy_io	pandas_ioutil	estimatorexportermodel_fntraining	estimator	extenders	keras_lib	mode_keys
+run_configestimator_libearly_stopping	pythontensorflow_estimatorjupyter-labhub-script_argon2_cffi_bindings
+_ffi_buildrun_testapicliutils
+tarballconda_package_handling__main___versionvalidate	conda_fmt	interface
+exceptionsarchive_utilstestsconftesttest_api
+test_utilsrun_test
+cph-scriptapicliutils
+tarballconda_package_handling__main__validate	conda_fmt	interface	streaming
+exceptionstestsconftesttest_apitest_cli
+test_utilsmemory_testtest_degradedtest_validatetest_interfacerun_test
+cph-script	indent
+draft04
+draft06
+draft07
+versionfastjsonschema__main__	generator
+exceptionsref_resolvertest_benchmarkconftestutilsjson_schematest_draft04test_draft06test_draft07	test_null
+test_array
+test_consttest_commontest_formattest_numbertest_objecttest_stringtest_booleantest_defaulttest_examplestest_securitytest_exceptionstest_compositiontest_integrationtest_compile_to_codetest_pattern_propertiestest_pattern_serializationrun_test	_utilscommon_utilsplatform_utilsinference_utils
+_vendorapis	input_pb2	model_pb2predict_pb2inference_pb2regression_pb2model_service_pb2classification_pb2prediction_log_pb2session_service_pb2get_model_status_pb2model_management_pb2get_model_metadata_pb2model_service_pb2_grpcprediction_service_pb2prediction_service_pb2_grpcutil
+status_pb2	configlogging_config_pb2model_server_config_pb2log_collector_config_pb2
+sourcesstorage_path&#file_system_storage_path_source_pb2tensorflow_servingtensorboard_plugin_wit
+wit_pluginwit_plugin_loaderrun_testv1tpuexperimental	export	inputs	estimatorexperimentalv1v2	export	inputs	estimatorexperimentalv2_apiv1tpuexperimental	export	inputs	estimatorexperimental_v1v2	export	inputs	estimatorexperimental_v2apiutiltpu
+tpu_configtpu_contexttpu_estimatorerror_handling_tpu_estimator_embeddingiteration_count_estimatorhead	base_head
+head_utils
+multi_headregression_headsequential_headmulti_class_headmulti_label_headbinary_class_headgchookshookssession_run_hookfake_summary_writerbasic_session_run_hookstools	analyticscheckpoint_converterv1dnn_testing_utils_v1linear_testing_utils_v1dnnrnnhead	kmeans	linearheadmodel
+timeseriesar_model
+estimators
+math_utilsmodel_utilsfeature_keysstate_managementsaved_model_utils	cannedbaseline
+optimizersmetric_keysutilssdca_ops"sharded_mutable_dense_hashtable	pythonlinear_optimizerparsing_utilsprediction_keysdnn_testing_utilsdnn_linear_combinedlinear_testing_utilssaved_model_estimator	export	exportfunction
+export_libexport_output	queuesfeeding_functionsfeeding_queue_runner	inputs	inputsnumpy_io	pandas_ioutil	estimatorexportermodel_fntraining	estimator	extenders	keras_lib	mode_keys
+run_configestimator_libearly_stopping	pythontensorflow_estimators3url
+extractconda_package_streaming	transmute
+exceptions
+lazy_wheelpackage_streamingrun_test	indent
+draft04
+draft06
+draft07
+versionfastjsonschema__main__	generator
+exceptionsref_resolvertest_benchmarkconftestutilsjson_schematest_draft04test_draft06test_draft07	test_null
+test_array
+test_consttest_commontest_formattest_numbertest_objecttest_stringtest_booleantest_defaulttest_examplestest_securitytest_exceptionstest_compositiontest_integrationtest_compile_to_codetest_pattern_propertiestest_pattern_serializationrun_testtest_svmsvcsvrnusvcnusvr
+_commonsvm__main__
+dispatcher_launch_algorithmstest_config_models_infotest_patchingtest_monkeypatchtest_memory_usage"test_run_to_run_stability_teststest_dbscantest_kmeans	dbscan
+k_means
+clustertest_metrics
+ranking
+metricspairwisetest_random_forest	forestensemble	test_tsnet_snemanifold	_utilstest_neighbors	neighborsknn_regressionknn_unsupervisedknn_classification
+_config	sklearnex__main__test_lineartest_logregridge	linearlinear_modellogistic_pathcoordinate_descenttest_pcapcadecomposition
+dispatchertest_model_selectionsplitmodel_selection_device_offload_launch_algorithmstest_config_models_infotest_patchingtest_monkeypatchtest_memory_usage"test_run_to_run_stability_teststest_svmsvcsvrnusvcnusvr
+_commonsvm__main__
+dispatcher_launch_algorithmstest_config_models_infotest_patchingtest_monkeypatchtest_memory_usage"test_run_to_run_stability_testsutils
+validationtest_dbscantest_kmeans	dbscan
+k_means
+clustertest_metrics
+ranking
+metricspairwisetest_random_forest	forestensemble	test_tsnet_snemanifold	_utilstest_neighbors	neighborsknn_regressionknn_unsupervisedknn_classification
+_config	sklearnex__main__test_lineartest_logregridge	linearlinear_modellogistic_pathcoordinate_descenttest_pcapcadecomposition
+dispatchertest_model_selectionsplitmodel_selection_device_offload_launch_algorithmstest_config_models_infotest_patchingtest_monkeypatchtest_memory_usage"test_run_to_run_stability_testsrun_testtensorboard_data_serverrun_test	_utilscommon_utilsplatform_utilsinference_utils
+_vendorapis	input_pb2	model_pb2predict_pb2inference_pb2regression_pb2model_service_pb2classification_pb2prediction_log_pb2session_service_pb2get_model_status_pb2model_management_pb2get_model_metadata_pb2model_service_pb2_grpcprediction_service_pb2prediction_service_pb2_grpcutil
+status_pb2	configlogging_config_pb2model_server_config_pb2log_collector_config_pb2
+sourcesstorage_path&#file_system_storage_path_source_pb2tensorflow_servingtensorboard_plugin_wit
+wit_pluginwit_plugin_loaderrun_testtensorboard_data_serverrun_test
+log_pb2apiauth_pb2http_pb2	label_pb2	quota_pb2	usage_pb2
+client_pb2
+metric_pb2backend_pb2billing_pb2context_pb2control_pb2logging_pb2service_pb2consumer_pb2endpoint_pb2httpbody_pb2resource_pb2monitoring_pb2annotations_pb2source_info_pb2distribution_pb2launch_stage_pb2config_change_pb2documentation_pb2field_behavior_pb2system_parameter_pb2monitored_resource_pb2
+contextattribute_context_pb2rpccode_pb2
+status_pb2error_details_pb2typedate_pb2expr_pb2	color_pb2	money_pb2	month_pb2
+latlng_pb2datetime_pb2fraction_pb2dayofweek_pb2timeofday_pb2quaternion_pb2postal_address_pb2calendar_period_pb2metadatagapic_metadata_pb2typehttp_request_pb2log_severity_pb2longrunningoperations_pb2operations_grpcoperations_protooperations_grpc_pb2operations_pb2_grpcoperations_proto_pb2run_testrun_testfunctools_lru_cacherun_test
+versionserializinghtmljsonimplplot_propertiesplot_read_writeplot_simple_graph
+plot_roget
+plot_wordsplot_footballplot_erdos_renyiplot_karate_clubplot_degree_sequence plot_expected_degree_sequence!plot_napoleon_russian_campaignplot_tspplot_degreeplot_sampsonplot_directedplot_ego_graphplot_selfloopsplot_four_gridsplot_unix_emailplot_eigenvaluesplot_knuth_milesplot_simple_pathplot_chess_mastersplot_edge_colormapplot_node_colormapplot_spectral_gridplot_weighted_graphplot_rainbow_coloringplot_custom_node_iconsplot_house_with_colorsplot_labels_and_colorsplot_multipartite_graphplot_random_geometric_graphplot_antigraphplot_printgraph
+plot_basicmayavi2_springplot_rcm	plot_snapplot_circuitsplot_subgraphsplot_blockmodelplot_davis_clubplot_beam_searchplot_dedensificationplot_parallel_betweennessplot_krackhardt_centralityplot_betweenness_centrality"plot_iterated_dynamical_systemsbeerlifehanoimcast	eiffel	markov	queens	redemo	vector
+rpythonrpythondsortvisuspreadsheet	msgfmt	pygettextmakelocalealiasMain
+ColorDB	pynche	pynche
+ChipViewer
+ListViewer
+TextViewerStripViewerSwitchboardPyncheWidgetTypeinViewerDetailsViewerpyColorChooserlll2to3crlfdifflfcrsuffbyextfixpsifdefndiffpdepsptagsrgrepservewhich	dutree	eptags	fixcid	fixdiv	google	md5sum	mkreal	nm2def	pydoc3	smelly
+abitype
+finddiv
+pathfix
+pindentcheckpipcopytimelinktreeobjgraphpysourcereindentuntabify	byteyears	db2pickle	fixheader	fixnotice	highlight	pickle2db	run_tests	texi2html
+find-uname
+gprof2html
+make_ctype
+patchcheckanalyze_dxpcleanfuturecombinerefsfindlinkstoupdate_filefindnocodingmailerdaemonreindent-rstwin_add2pathparseentitiesgenerate_tokengenerate_opcode_hpep384_macrocheckgenerate_symbol_pyimport_diagnosticsfind_recursionlimitparse_html5_entitiesvar_access_benchmarkget-remote-certificatecwpglib-mkenumsgdbus-codegengtester-reportglib-genmarshalglib_gdbgobject_gdbutils	config	parser
+codegen
+codegen	dbustypescodegen_maincodegen_docbook
+gst_gdbglib_gobject_helper"gst-plugins-doc-cache-generator
+devicesjpjsondiff	jsonpatch	rst2s5	wsdump
+rst2man
+rst2odt
+rst2xmljsonpointerrst2html	rst2html4	rst2html5	rst2latex	rst2xetex
+cph-script
+pip-script
+ttx-script2to3-scriptcftp-scriptf2py-scriptidle-scriptjlpm-scriptnltk-scriptpep8-scriptpip3-scriptpycc-scriptpyct-scriptqtpy-scriptrstpep2htmltoco-scripttqdm-scriptyapf-scriptblack-scriptbokeh-scriptconch-scriptconda-scriptflask-scriptisort-scriptnumba-scriptpanel-scriptpydoc-scriptpylsp-scriptskivi-scripttrial-scripttwist-scriptwheel-scriptblackd-scriptflake8-scriptintake-scriptisympy-scriptpt2to3-scriptptdump-scriptpttree-scriptpylint-scriptpytest-scriptpyuic5-scriptrst2pseudoxmlscrapy-scriptspyder-scripttwistd-scriptundill-scriptvolint-scriptbinstar-scriptckeygen-scriptepylint-scriptipython-scriptjupyter-scriptkeyring-scriptlsm2bin-scriptpkginfo-scriptpy.test-scriptpybabel-scriptpyjson5-scriptslugify-scriptsymilar-scripttkconch-scriptwcslint-scriptxlwings-scriptanaconda-scriptautopep8-scriptcolorcet-scriptdask-ssh-scriptfitsdiff-scriptfitsinfo-scriptfuturize-scriptipython3-scriptmailmail-scriptmenuinst-scriptptrepack-scriptpyflakes-scriptpywin32_testallsamp_hub-scripttabulate-scripttifffile-scripttorchrun-scriptconda-env-scriptfitscheck-scriptfonttools-scriptholoviews-scriptpyftmerge-scriptpyreverse-scriptshowtable-scriptsip-build-scriptsip-sdist-scriptsip-wheel-scriptunidecode-scriptwatchmedo-scriptchardetect-scriptconda-repo-scriptdatashader-scriptfitsheader-scriptjsonschema-scriptmatplotlib-scriptnormalizer-scriptpasteurize-scriptpydocstyle-scriptpyftsubset-scriptpygmentize-scriptpyhtmlizer-scriptpyrsa-sign-scriptsip-module-scripttldextract-scriptconda-build-scriptconda-debug-scriptconda-index-scriptconda-token-scriptdask-worker-scriptfits2bitmap-scriptimagecodecs-scriptjupyter-lab-scriptjupyter-run-scriptmarkdown_py-scriptpycodestyle-scriptqta-browser-scriptrst2odt_prepstylessip-install-scripttensorboard-scripttiff2fsspec-scripttiffcomment-scriptconda-render-scriptconda-server-scriptconda-verify-scriptcookiecutter-scriptget_objgraph-scriptpyrsa-keygen-scriptpyrsa-verify-scriptpywin32_postinstallsip-distinfo-scriptsphinx-build-scriptconda-convert-scriptconda-develop-scriptconda-inspect-scriptintake-server-scriptjupyter-trust-scriptpylint-config-scriptpyrsa-decrypt-scriptpyrsa-encrypt-scriptsphinx-apidoc-scripttf_upgrade_v2-scriptconda-skeleton-scriptdask-scheduler-scriptjupyter-dejavu-scriptjupyter-kernel-scriptjupyter-labhub-scriptjupyter-server-scriptpyrsa-priv2pub-scriptsphinx-autogen-scripttflite_convert-scripthuggingface-cli-scriptjupyter-console-scriptjupyter-execute-scriptjupyter-migrate-scriptsaved_model_cli-scriptjupyter-notebook-scripttoco_from_protos-scripttransformers-cli-scriptautomat-visualize-scriptconda-metapackage-scriptjupyter-nbclassic-scriptjupyter-nbconvert-scriptjupyter-qtconsole-scriptnavigator-updater-scriptsphinx-quickstart-scriptanaconda-navigator-scriptimageio_remove_bin-scriptjupyter-kernelspec-scriptnavigator-updater-scriptanaconda-navigator-scriptconda-content-trust-scriptjupyter-nbextension-scriptgoogle-oauthlib-tool-scriptimageio_download_bin-scriptjupyter-labextension-scriptjupyter-troubleshoot-script convert-caffe2-to-onnx-script convert-onnx-to-caffe2-script!jupyter-serverextension-script"estimator_ckpt_converter-script"jupyter-bundlerextension-script%"jupyter-nbclassic-extension-script+(jupyter-nbclassic-serverextension-script,)jupyter-nbclassic-bundlerextension-scriptdeldellopsgen_manip_opsgen_state_opshistogram_opsoptional_gradrnn_cell_implclustering_opscollective_opscudnn_rnn_graddata_flow_gradfilesystem_opsfunctional_opsgen_linalg_opsgen_lookup_opsgen_random_opsgen_script_opsgen_sparse_opsgen_string_opsgradients_implgradients_utilimage_ops_implparsing_configsummary_ops_v2variable_scopecustom_gradientgen_bitwise_opsgen_dataset_opsgen_logging_opsgen_parsing_opsgen_summary_opsinitializers_nslinalg_ops_implsummary_op_utilconfusion_matrixcontrol_flow_opsdefault_gradientgen_sendrecv_opsgen_spectral_opsgen_training_opsgradient_checkerhandle_data_utilspecial_math_opstensor_array_opsboosted_trees_opscontrol_flow_gradcontrol_flow_utilgen_cudnn_rnn_opsgen_data_flow_opstensor_array_gradcontrol_flow_stategen_checkpoint_opsgen_clustering_opsgen_collective_opsgen_filesystem_opsgen_functional_opsgen_ragged_math_opsgradient_checker_v2stateful_random_opscomposite_tensor_opscontrol_flow_util_v2critical_section_opsgen_control_flow_opsgen_decode_proto_opsgen_encode_proto_opsgen_ragged_array_opsgen_special_math_opsimage_grad_test_basestateless_random_opsgen_boosted_trees_opsgen_tpu_partition_opspartitioned_variablesresource_variable_opsrnn_cell_wrapper_implunconnected_gradientsweights_broadcast_opscandidate_sampling_opscontrol_flow_v2_togglesgen_stateful_random_opsgen_composite_tensor_opsgen_stateless_random_opsgen_ragged_conversion_opsgen_resource_variable_opsgen_candidate_sampling_opscontrol_flow_v2_func_graphsgen_stateless_random_ops_v2gen_experimental_dataset_opsgen_random_index_shuffle_ops# while_v2_indexed_slices_rewriter
+tpu_opsopsapi	client
+version	clienttpuutilprofilerprofiler_analysis_pb2_grpctpubfloat16datasetstopologytpu_feed
+functional
+tpu_configtpu_contexttpu_functiontpu_shardingtensor_tracertpu_embeddingtpu_estimatortpu_name_utiltpu_optimizertraining_looperror_handlingfeature_columnpreempted_hooksession_supportasync_checkpointtpu_embedding_v1tpu_embedding_v2device_assignmentfeature_column_v2tensor_tracer_pb2tpu_strategy_utiltpu_embedding_basetensor_tracer_flagstpu_system_metadatatensor_tracer_reporttpu_hardware_featuretpu_embedding_gradienttpu_embedding_v2_utils_tpu_estimator_embeddingtpu_embedding_for_serving
+load_op
+options
+readers
+save_opopsdataset_opsiterator_opsoptional_opsstructured_functionmulti_device_iterator_opsnest	sparse
+convert
+optionsutiltraverse	structurerandom_seed
+benchmarksbenchmark_basedataio	unique
+counter
+readers
+testing
+writersopsbatchinggroupingscan_opssnapshot	error_ops	from_list	map_defun
+distribute
+lookup_ops
+random_ops
+resamplingcardinalityparsing_opsshuffle_opsiterator_opsenumerate_opsrandom_accessinterleave_opsmatching_filestake_while_opscompression_opsprefetching_opsdata_service_opsget_single_element
+service
+server_libexperimental
+service	test_basemulti_process_clusterkernel_testskernel_tests	test_basetf_record_test_basecheckpoint_test_basenest
+compareprotobuf	compat	memoryutilall_utildispatchtf_stack	lock_util	tf_export
+future_api
+keras_deps
+tf_inspectdeprecationlazy_loaderkeyword_argstf_decoratorserializationtf_contextlibtf_should_usefunction_utilsmodule_wrappervariable_utilscompat_internaldecorator_utilsobject_identitytraceback_utilsis_in_graph_modetype_annotationsdeprecated_moduledeprecation_wrapperdeprecated_module_newexample_parser_configuration
+base_uicli	curses_ui	evaluator
+cli_config
+cli_shared
+ui_factoryreadline_uianalyzer_clitensor_formatcli_test_utilscommand_parsercurses_widgetsoffline_analyzerdebugger_cli_commonprofile_analyzer_cli	commonlib	profiling
+debug_datadebug_utilsdebug_graphssource_utilssource_remotedebug_gradientsdumping_callbackgrpc_debug_serverdebug_events_readerdebug_events_writerop_callbacks_commondebug_events_monitorssession_debug_testlibdebug_service_pb2_grpcgrpc_debug_test_servergrpc_tensorflow_servercheck_numerics_callbackdumping_callback_test_libhookswrappers	frameworkgrpc_wrapperdumping_wrapperlocal_cli_wrapperdebugcoretapetest	remote
+context
+executeeagerbackpropexecutorfunctionprofilermemory_testsmemory_test_util
+monitoringforwardpropcancellationdef_functionbackprop_utilfunction_speclift_to_graphwrap_functiongraph_only_opsimperative_gradprofiler_clientforwardprop_utilfunction_contextbenchmarks_test_basefunction_saved_model_utilsutilsio_utilsnp_utilstf_utils	all_utils	mode_keys	vis_utils
+conv_utils
+data_utils
+tf_inspectlayer_utilslosses_utilsgeneric_utilsmetrics_utilstf_contextlibversion_utilsdataset_creatorobject_identitykernelized_utilscontrol_flow_utilnode	saving	enginetraining
+base_layer
+functional
+input_spec
+sequentialinput_layertraining_v1data_adapterkeras_tensorbase_layer_v1compile_utilstraining_utilsbase_layer_utilstraining_eager_v1training_utils_v1training_arrays_v1training_generator_v1training_distributed_v1base_preprocessing_layer partial_batch_padding_handlercoremerge
+legacy_rnnrnn_cell_implrnn_cell_wrapper_impl
+pooling	layers	recurrent
+embeddingsrecurrent_v2convolutionalserializationcudnn_recurrentdense_attentionrnn_cell_wrapper_v2advanced_activationsconvolutional_recurrentsaveutils_v1	mode_keysexport_utilsexport_outputsignature_def_utilsunexported_constants	savingloadsaveutilssaved_model	constants	save_impl
+json_utilsload_contextbase_serializationlayer_serializationmodel_serializationmetric_serializationnetwork_serializationserialized_attributeshdf5_formatmodel_configsaving_utilssaved_model_experimentalprotobufversions_pb2saved_metadata_pb2projector_config_pb2	losses	models
+backend
+distributeworker_training_statedistributed_file_utilsdistributed_training_utilsdistribute_coordinator_utils distributed_training_utils_v1
+metricskeras	callbacksinitializersinitializers_v1initializers_v2adamftrlnadamutils	adamax
+adagrad
+rmspropoptimizer_v2adadeltaoptimizer_v2gradient_descentlearning_rate_schedulelegacy_learning_rate_decay
+optimizersactivationsconstraintscallbacks_v1combinations	policymixed_precision	test_util
+loss_scaleget_layer_policyautocast_variableloss_scale_optimizerdevice_compatibility_checkoptimizer_v1regularizersbasecore
+poolinglegacy_tf_layersconvolutionalvariable_scope_shimtesting_utilsbackend_configkeras_parameterized	generatordoc_srcscreate_python_apiapitoolsmodule_utilfreeze_graphstrip_unusedsaved_model_clistrip_unused_libsaved_model_utilsinspect_checkpointoptimize_for_inferencesaved_model_aot_compileimport_pb_to_tensorboardoptimize_for_inference_lib$!selective_registration_header_lib&#print_selective_registration_headercoretracetypesinternal
+distributedoc_typealias
+session	clienttimeline
+client_lib
+device_libpywrap_tf_session	compat	compat	v2_compat	dlpack	dlpackbasecoreutils	layers
+pooling	layersconvolutionalnormalization	module	moduletf2	writer	writerwriter_cacheevent_file_writerevent_file_writer_v2
+summary
+summaryplugin_assetsummary_iteratorjitxlaxlamlirmlirtesttf_trt_integration_test_baseutilstensorrttrt_convertcompileritem
+clustergrapplertf_optimizerapptestflagsgfileplatform	analytics	benchmark	sysconfig
+build_info
+googletest
+self_check
+tf_loggingremote_utilsparameterizeddevice_contextcontrol_importsresource_loaderinternalflops_registrytraceprofilerprofilerprofiler_v2tfprof_loggermodel_analyzeroption_builderprofiler_client	savingsaveable_objectfunctional_savercheckpoint_optionssaveable_object_utiladamftrlinputsaverbaseutilassettrackingresourcetracking
+graph_viewlayer_utilspython_stateautotrackablebase_delegatedata_structurestrackable_utils
+adagrad
+rmsproptrainingadadeltamomentumtrainingexperimental
+loss_scalemixed_precisionloss_scale_optimizermixed_precision_global_state	optimizer
+adagrad_da
+distribute
+evaluation
+server_lib
+summary_io
+supervisorbasic_loopscoordinatorqueue_runnerslot_creatortraining_opsdevice_settertraining_utilcheckpoint_opsmoving_averagessession_managercheckpoint_utilsgen_training_opsgradient_descentproximal_adagradsaver_test_utilssession_run_hookmonitored_sessionquantize_trainingqueue_runner_implwarm_starting_utillearning_rate_decaycheckpoint_state_pb2py_checkpoint_readercheckpoint_managementbasic_session_run_hookssync_replicas_optimizerproximal_gradient_descent distribution_strategy_contextopsgen_user_opsuser_opsuser_ops	ag_ctx	configcore	converter
+config_libconverter_testingfunction_wrappersunsupported_features_checkerapiimpl
+conversionlang
+directivesspecial_functionscfganno
+testing
+decoratorsbasic_definitionscache	errors	loader	naming	parserpyctast_util	gast_util	templates
+qual_names
+transpilererror_utilsorigin_infotransformerannosstatic_analysisactivitylivenesstype_inferencereaching_fndefsreaching_definitionsinspect_utilspretty_printeranfcommon_transformersmisc
+py_func
+tensors
+testingutils
+ag_loggingtensor_listcontext_managers	slices
+logical	operators	variables
+exceptionspy_builtinscontrol_flowdata_structuresconditional_expressionslists	slices
+asserts
+converters	functions	variables
+call_trees
+directivescontrol_flowbreak_statementsreturn_statementscontinue_statementslist_comprehensionslogical_expressionsconditional_expressionscontrol_flow_deprecated_py2	autographgcdnnhead	linear	cannedbaseline
+optimizersmetric_keysparsing_utilsprediction_keysdnn_linear_combined	export	export
+export_libexport_output	queuesfeeding_functionsfeeding_queue_runner	inputs	inputsnumpy_io	pandas_ioutilkeras	estimatorexportermodel_fntraining	estimator
+run_configestimator_libops	config	device	dtypes	errors
+kernels	frameworkfunctiongpu_utilgraph_ioimporterregistrytest_opsversions	subscribe	test_util	type_spec
+c_api_util
+func_graph
+graph_util
+meta_graph
+smart_cond
+tfrt_utils
+type_utilsconstant_opdevice_specerrors_implrandom_seedtensor_spectensor_utilcombinationsload_libraryop_callbackstensor_shapecommon_shapesframework_libsparse_tensorextension_typeimmutable_dictindexed_slicesmemory_checkerop_def_librarygraph_util_implop_def_registrytraceable_stackcomposite_tensorauto_control_depstest_combinationserror_interpolationconvert_to_constantsextension_type_fieldfunction_def_to_graphgraph_to_function_defop_def_library_pybindpython_memory_checkerauto_control_deps_utilscpp_shape_inference_pb2composite_tensor_gradienttensor_conversion_registrybaseasset	trackableresource	constants	converterlayer_utilspython_stateautotrackablebase_delegatedata_structurestrackable_utilsutil
+restore
+checkpoint
+checkpoint
+graph_viewtrackable_viewsaveable_compatfunctional_savercheckpoint_optionscheckpoint_managementv1	input_lib
+all_reduce	values
+step_fn
+distributeutils	valuescoordinatorwatchdogmetric_utilscluster_coordinatorcoordinator_contexttpu_util
+rpc_opsrpcexperimental	input_lib	input_ops	ps_values	test_util	values_v2
+input_util
+tpu_valuesdevice_utilreduce_utilvalues_utilcombinationsmirrored_runparallel_deviceparallel_devicetpu_strategytputpu_cluster_resolvercluster_resolvercluster_resolvergce_cluster_resolvertpu_cluster_resolverslurm_cluster_resolvertfconfig_cluster_resolversagemaker_cluster_resolverkubernetes_cluster_resolverfailure_handlinggce_utilfailure_handlingnumpy_datasetdistribute_libcollective_utilsummary_op_utilcross_device_opsdistribute_utilssharded_variabledistribute_configmirrored_strategymulti_process_libmulti_worker_utilstrategy_test_libcross_device_utilsestimator_trainingmerge_call_interimone_device_strategysingle_loss_examplemulti_process_runnerstrategy_combinationsdistribute_coordinatormulti_worker_test_baseshared_variable_creatortpu_replicated_variablecentral_storage_strategyparameter_server_strategypacked_distributed_variableparameter_server_strategy_v2 distribution_strategy_context!collective_all_reduce_strategy!distribute_coordinator_context	pythonloadsaveutils	loader
+builder
+main_opsaved_modelmodel_utils	mode_keysexport_utilsexport_output	constantsregistrationregistration
+utils_implloader_implsaved_modelsimple_savebuilder_implload_optionsmain_op_implsave_contextsave_optionsload_v1_in_v2revived_typestag_constantsmethod_name_updatersignature_constantssignature_def_utilsfunction_serializationnested_structure_codersignature_serializationfunction_deserializationsignature_def_utils_impl	nn_opsbias_op_basexent_op_test_basedepthwise_conv_op_basecudnn_deterministic_baseutil	random	signal	test_util
+sparse_opssparse_xent_op_test_basekernel_tests
+pywrap_tfeutilsfeature_columnserializationfeature_columnfeature_column_v2feature_column_libsequence_feature_columnpywrap_mlirpywrap_sanitizerspywrap_tensorflowpywrap_dlopen_global_flagspywrap_tensorflow_internalprocessmultiprocessingmanagers	reduction
+connection
+forkserver
+popen_forksynchronizesharedctypesshared_memoryresource_sharerpopen_forkserverresource_trackerpopen_spawn_posixpopen_spawn_win32socketserver_sitebuiltinssre_constants__phello__.foo_compat_pickle_bootsubprocess_collections_abc_threading_localcheck_finditer
+check_taskcheck_tk_compatcheck_base_descriptorscheck_struct
+check_postcheck_protocolscheck_relativedelta

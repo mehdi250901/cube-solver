@@ -1,0 +1,575 @@
+BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.818 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.818 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.818 WARN] voip > wa_call_signaling.c  send_call_summary_event_from_xmpp_call_summary: call summary is empty
+[BT W P:10336 T:020216 D:11 16-12-23 17:19:19.918 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.918 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.918 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.918 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 17:19:19.918 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:003712 D:11 16-12-23 17:24:08.497 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: SetDevicesForUser, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.513 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.513 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.513 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.513 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:003712 D:11 16-12-23 17:24:08.513 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.528 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.528 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.528 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.528 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 17:24:08.528 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:008572 D:-1 16-12-23 17:24:13.565 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 4 (dir 2) for 5008ms, rebind with relay
+[BT W P:10336 T:008572 D:-1 16-12-23 17:24:18.628 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 4 (dir 2) for 5029ms, rebind with relay
+[BT W P:10336 T:008572 D:-1 16-12-23 17:24:23.692 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 4 (dir 2) for 5027ms, rebind with relay
+[BT W P:10336 T:011880 D:-1 16-12-23 17:25:53.934 WARN] voip > wa_call_signaling.c  send_call_summary_event_from_xmpp_call_summary: call summary is empty
+[BT W P:10336 T:016112 D:11 16-12-23 17:25:54.044 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 17:25:54.044 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 17:25:54.044 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 17:25:54.044 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 17:25:54.044 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BG W P:10336 T:013076 D:-1 16-12-23 18:55:20.160 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:016940 D:-1 16-12-23 18:55:20.176 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:017812 D:11 16-12-23 18:55:20.926 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:012204 D:11 16-12-23 18:57:13.085 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:001132 D:11 16-12-23 18:59:12.171 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:006440 D:11 16-12-23 19:00:57.203 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:015088 D:11 16-12-23 19:02:59.134 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BG W P:10336 T:007184 D:-1 16-12-23 19:22:16.634 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BG W P:10336 T:004604 D:-1 16-12-23 19:22:16.648 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:004604 D:11 16-12-23 19:22:17.275 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:016496 D:11 16-12-23 19:52:36.397 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:016496 D:11 16-12-23 19:52:36.413 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011172 D:11 16-12-23 19:57:24.035 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:007424 D:11 16-12-23 19:58:03.104 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:007424 D:11 16-12-23 19:58:03.128 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:013888 D:11 16-12-23 20:00:18.264 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:013888 D:11 16-12-23 20:00:18.290 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002016 D:11 16-12-23 20:00:23.412 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:015096 D:11 16-12-23 20:00:24.991 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:008920 D:11 16-12-23 20:02:56.714 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:008920 D:11 16-12-23 20:02:56.750 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:015044 D:11 16-12-23 20:03:12.775 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:016500 D:11 16-12-23 20:03:25.273 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:016500 D:11 16-12-23 20:03:25.296 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:016500 D:11 16-12-23 20:03:44.541 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:013020 D:11 16-12-23 20:03:55.029 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:013020 D:11 16-12-23 20:03:55.046 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019528 D:11 16-12-23 20:04:03.879 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:019528 D:11 16-12-23 20:04:06.214 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:002264 D:11 16-12-23 20:04:22.567 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020664 D:11 16-12-23 20:05:36.629 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:10336 T:020664 D:11 16-12-23 20:05:36.645 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: Write
+[BT W P:10336 T:020664 D:11 16-12-23 20:05:36.689 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020664 D:11 16-12-23 20:05:36.709 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020664 D:11 16-12-23 20:05:41.139 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:015700 D:11 16-12-23 20:05:58.747 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:015700 D:11 16-12-23 20:05:58.769 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:014668 D:11 16-12-23 20:06:06.898 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:006956 D:11 16-12-23 20:07:54.017 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:006956 D:11 16-12-23 20:07:54.041 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:012980 D:11 16-12-23 20:08:02.795 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:004312 D:11 16-12-23 20:08:17.160 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:004312 D:11 16-12-23 20:08:17.178 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:001580 D:11 16-12-23 20:08:32.096 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:008892 D:11 16-12-23 20:08:34.262 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:004084 D:11 16-12-23 20:08:45.161 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:004084 D:11 16-12-23 20:08:45.192 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:012448 D:11 16-12-23 20:08:48.696 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:004084 D:11 16-12-23 20:09:00.377 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020772 D:11 16-12-23 20:09:16.052 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020772 D:11 16-12-23 20:09:16.085 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:018528 D:11 16-12-23 20:09:18.387 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020688 D:11 16-12-23 20:10:05.948 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020688 D:11 16-12-23 20:10:05.962 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011172 D:11 16-12-23 20:12:24.214 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:011172 D:11 16-12-23 20:12:24.237 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:005808 D:11 16-12-23 20:12:30.078 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020732 D:11 16-12-23 20:16:41.216 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020732 D:11 16-12-23 20:16:41.232 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:004164 D:11 16-12-23 20:16:43.359 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018328 D:11 16-12-23 20:18:28.919 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018328 D:11 16-12-23 20:18:28.919 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018328 D:11 16-12-23 20:18:28.950 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018328 D:11 16-12-23 20:18:28.972 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018328 D:11 16-12-23 20:18:28.982 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:007864 D:11 16-12-23 20:20:13.440 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:018504 D:11 16-12-23 20:25:05.425 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018504 D:11 16-12-23 20:25:05.440 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:018504 D:11 16-12-23 20:25:05.455 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:001892 D:11 16-12-23 20:27:05.735 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:001892 D:11 16-12-23 20:27:05.751 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002772 D:11 16-12-23 20:34:46.233 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019280 D:11 16-12-23 20:36:02.675 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.111 ERROR] voip > wa_voip_param_utils !Parameter p->conds.cond_codec_type conversion fails
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.117 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:021404 D:11 16-12-23 20:49:42.119 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.121 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.122 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.122 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.122 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.123 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.128 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.128 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.128 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.128 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 20:49:42.128 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:007572 D:-1 16-12-23 20:49:47.238 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5047ms, rebind with relay
+[BT W P:10336 T:007572 D:-1 16-12-23 20:49:52.288 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 0 (dir 2) for 5044ms, rebind with relay
+[BT W P:10336 T:007572 D:-1 16-12-23 20:49:57.338 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5043ms, rebind with relay
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.506 WARN] voip > wa_call_signaling.c  send_call_summary_event_from_xmpp_call_summary: call summary is empty
+[BT W P:10336 T:017840 D:11 16-12-23 20:51:27.514 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:012976 D:09 16-12-23 20:51:27.541 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: SetDevicesForUser, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.591 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:10336 T:017840 D:11 16-12-23 20:51:27.608 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.611 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.611 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.611 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 20:51:27.611 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:021136 D:-1 16-12-23 21:25:54.423 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:015824 D:-1 16-12-23 21:25:54.430 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:021136 D:-1 16-12-23 21:25:54.437 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:021136 D:-1 16-12-23 21:25:54.443 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.194 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.200 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.203 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.205 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.205 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.205 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:016632 D:11 16-12-23 21:25:55.205 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.206 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.208 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.208 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.208 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.208 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 21:25:55.209 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:018064 D:-1 16-12-23 21:26:00.374 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5060ms, rebind with relay
+[BT W P:10336 T:018064 D:-1 16-12-23 21:26:05.424 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 0 (dir 2) for 5041ms, rebind with relay
+[BT W P:10336 T:018064 D:-1 16-12-23 21:26:10.480 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5049ms, rebind with relay
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.154 WARN] voip > wa_call_signaling.c  send_call_summary_event_from_xmpp_call_summary: call summary is empty
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.206 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.298 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.298 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.298 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 21:26:14.298 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:012552 D:11 16-12-23 21:27:58.201 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:012552 D:11 16-12-23 21:27:58.220 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011036 D:11 16-12-23 21:50:50.443 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:011036 D:11 16-12-23 21:50:50.463 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:008180 D:11 16-12-23 21:50:51.711 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.011 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.018 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.027 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.052 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.059 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.077 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:020872 D:11 16-12-23 21:52:54.097 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:009144 D:11 16-12-23 21:58:43.254 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:001972 D:11 16-12-23 22:02:05.146 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:010656 D:11 16-12-23 22:04:08.770 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:016368 D:11 16-12-23 22:06:04.808 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021268 D:11 16-12-23 22:07:56.767 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011036 D:11 16-12-23 22:09:43.077 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:008436 D:11 16-12-23 22:11:44.568 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.880 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.886 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.889 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.891 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.891 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.891 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:11:57.892 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:011128 D:-1 16-12-23 22:11:57.922 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011128 D:-1 16-12-23 22:11:57.922 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011128 D:-1 16-12-23 22:11:57.922 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011128 D:-1 16-12-23 22:11:57.922 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011128 D:-1 16-12-23 22:11:57.926 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.199 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:10336 T:002928 D:-1 16-12-23 22:12:01.282 ERROR] voip > wa_transport.cc !worker thread exiting, do not process the cb queue.
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.285 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.285 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.285 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.285 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 22:12:01.314 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:016788 D:11 16-12-23 22:13:47.016 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:012940 D:11 16-12-23 22:17:06.161 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: StoreIncomingMessageImpl, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:012940 D:11 16-12-23 22:17:06.192 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011364 D:-1 16-12-23 22:43:41.971 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:019164 D:-1 16-12-23 22:43:41.977 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.650 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:10336 T:011364 D:11 16-12-23 22:43:42.654 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.656 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.659 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.661 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.661 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.661 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.662 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.754 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.864 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.865 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.865 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:42.865 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:020488 D:-1 16-12-23 22:43:48.007 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 2 (dir 2) for 5039ms, rebind with relay
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.419 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.501 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.501 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.501 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.501 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 16-12-23 22:43:52.582 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:005968 D:11 16-12-23 23:06:03.608 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: RemoveDevices, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:005968 D:11 16-12-23 23:06:03.608 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: RemoveDevices, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:005968 D:11 16-12-23 23:06:03.608 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: RemoveDevices, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:005968 D:11 16-12-23 23:06:03.608 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: RemoveDevices, write:True, requested lockType: ReadOnly
+[BT W P:10336 T:005968 D:11 16-12-23 23:06:03.622 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:013044 D:11 16-12-23 23:21:11.044 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:016644 D:11 16-12-23 23:36:03.618 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022360 D:11 16-12-23 23:51:11.150 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022468 D:11 17-12-23 00:05:57.973 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022468 D:11 17-12-23 00:05:57.973 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021816 D:11 17-12-23 00:21:09.329 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:010300 D:11 17-12-23 00:35:58.085 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020600 D:11 17-12-23 00:51:09.972 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019840 D:11 17-12-23 01:05:58.047 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022620 D:11 17-12-23 01:21:09.388 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022548 D:11 17-12-23 01:35:58.070 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021112 D:11 17-12-23 01:51:09.408 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BG W P:10336 T:006772 D:-1 17-12-23 04:34:04.559 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:005620 D:-1 17-12-23 04:34:04.565 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BG W P:10336 T:020724 D:-1 17-12-23 04:34:04.579 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:019024 D:-1 17-12-23 04:34:04.579 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022860 D:-1 17-12-23 06:31:02.832 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BG W P:10336 T:003364 D:-1 17-12-23 06:31:02.840 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BG W P:10336 T:005620 D:-1 17-12-23 06:31:02.844 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:003364 D:-1 17-12-23 06:31:02.844 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022272 D:-1 17-12-23 06:31:02.855 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:003364 D:-1 17-12-23 06:31:02.873 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:013076 D:-1 17-12-23 06:31:02.873 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:003364 D:-1 17-12-23 06:31:02.889 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022272 D:-1 17-12-23 06:31:02.889 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022860 D:-1 17-12-23 06:31:02.903 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022860 D:-1 17-12-23 06:31:02.903 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:022272 D:-1 17-12-23 06:31:02.918 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:007844 D:-1 17-12-23 06:31:03.059 ERROR] LogComError > ConnectThreadProc, line 401: 0x80072743: Une opération a été tentée sur un réseau impossible à atteindre.
+[BG W P:10336 T:019024 D:-1 17-12-23 06:31:03.059 ERROR] LogComError > WhatsAppNative::WaSocket::ThreadProc, line 538: 0x80072743: Une opération a été tentée sur un réseau impossible à atteindre.
+[BG W P:10336 T:019024 D:00 17-12-23 06:31:03.059 ERROR] BotService/OnGetBotsError > Failed to get Bots error 408
+[BT W P:10336 T:022392 D:11 17-12-23 08:32:28.451 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BG W P:10336 T:023324 D:-1 17-12-23 09:35:32.729 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:023324 D:-1 17-12-23 09:35:32.737 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:019024 D:-1 17-12-23 09:35:32.744 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:011192 D:-1 17-12-23 09:35:32.750 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:011192 D:11 17-12-23 09:35:33.433 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BG W P:10336 T:009424 D:-1 17-12-23 10:10:40.189 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:007676 D:-1 17-12-23 10:10:40.199 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:020744 D:11 17-12-23 10:10:40.840 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BG W P:10336 T:016484 D:-1 17-12-23 10:18:34.463 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BG W P:10336 T:006772 D:-1 17-12-23 11:08:36.158 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BG W P:10336 T:021448 D:-1 17-12-23 11:08:36.158 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:10336 T:022508 D:-1 17-12-23 11:08:36.175 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:10336 T:018584 D:11 17-12-23 11:08:36.926 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.341 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:10336 T:017648 D:11 17-12-23 11:32:20.341 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.356 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.419 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.419 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.419 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.434 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:20.434 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.577 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.656 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.656 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.656 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.656 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:011880 D:-1 17-12-23 11:32:23.734 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:10336 T:003768 D:11 17-12-23 12:06:01.909 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020600 D:11 17-12-23 12:06:28.548 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002336 D:11 17-12-23 12:12:18.194 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:017776 D:11 17-12-23 12:12:38.933 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:003332 D:11 17-12-23 12:13:53.463 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:010004 D:11 17-12-23 12:14:33.375 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:009832 D:11 17-12-23 12:28:58.942 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:009832 D:11 17-12-23 12:28:58.999 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019012 D:11 17-12-23 12:30:10.536 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021524 D:11 17-12-23 12:30:31.782 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:009768 D:11 17-12-23 12:30:52.061 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:013556 D:11 17-12-23 12:32:06.972 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:001776 D:11 17-12-23 12:32:30.733 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020508 D:11 17-12-23 12:33:00.439 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019268 D:11 17-12-23 12:33:26.203 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:019268 D:11 17-12-23 12:33:26.223 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:017820 D:11 17-12-23 12:33:52.385 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:005104 D:11 17-12-23 12:34:25.661 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020404 D:11 17-12-23 12:34:46.336 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019396 D:11 17-12-23 12:35:07.958 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002696 D:11 17-12-23 12:35:31.041 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:008640 D:11 17-12-23 12:36:01.816 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002032 D:11 17-12-23 12:37:20.452 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:002120 D:11 17-12-23 12:38:12.620 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:002120 D:11 17-12-23 12:38:12.644 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:019092 D:11 17-12-23 12:39:28.740 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:019092 D:11 17-12-23 12:39:28.763 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022552 D:11 17-12-23 12:39:32.390 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:017724 D:11 17-12-23 12:40:00.726 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:017724 D:11 17-12-23 12:40:00.764 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021580 D:11 17-12-23 12:40:15.913 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:003112 D:11 17-12-23 12:41:25.811 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:017776 D:11 17-12-23 12:41:36.417 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:022548 D:11 17-12-23 12:41:56.373 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:022548 D:11 17-12-23 12:41:56.392 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:018872 D:11 17-12-23 12:42:04.464 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:010260 D:11 17-12-23 12:42:36.127 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:010260 D:11 17-12-23 12:42:36.150 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:010260 D:11 17-12-23 12:42:49.904 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:010260 D:11 17-12-23 12:42:51.334 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:021556 D:11 17-12-23 12:44:26.030 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:021556 D:11 17-12-23 12:44:26.050 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:021176 D:11 17-12-23 12:45:59.419 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022444 D:11 17-12-23 12:48:39.532 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:022444 D:11 17-12-23 12:48:39.557 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:020508 D:11 17-12-23 12:48:53.646 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:015340 D:11 17-12-23 12:48:56.016 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:002348 D:11 17-12-23 12:49:03.291 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:002348 D:11 17-12-23 12:49:03.315 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:009660 D:11 17-12-23 12:50:52.025 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:009660 D:11 17-12-23 12:50:52.047 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:022256 D:11 17-12-23 12:51:02.868 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:014972 D:11 17-12-23 12:51:41.054 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:014972 D:11 17-12-23 12:51:41.078 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:008108 D:11 17-12-23 13:25:14.227 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:008108 D:11 17-12-23 13:25:14.260 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:10336 T:006772 D:-1 17-12-23 13:25:15.343 WARN] Mp4Utils >     matrix[6] = 0x05A00000, suggesting horizontal displacement by 1440 pixels
+[BT W P:10336 T:006772 D:-1 17-12-23 13:25:15.346 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:10336 T:016812 D:11 17-12-23 13:25:24.146 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:10336 T:013572 D:11 17-12-23 13:25:47.623 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[FG W P:10336 T:012072 D:-1 17-12-23 13:26:19.692 WARN] soundport > Stop ignored - no audio driver
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.224 WARN] Mp4Utils > Trak #0 total edit list segment duration (22567) is smaller than movie duration (22675), playback repercussions possible
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.224 WARN] Mp4Utils >     Trak #0 contains EDTS/ELST in need of remodeling
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.224 WARN] Mp4Utils >     STTS table cumulative sample timing ticks count (1000960) does not match declared duration (999936).
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.224 WARN] Mp4Utils > Trak #1 total edit list segment duration (22674) is smaller than movie duration (22675), playback repercussions possible
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.224 WARN] Mp4Utils >     Trak #1 contains EDTS/ELST in need of remodeling
+[FG W P:10336 T:012588 D:-1 17-12-23 13:32:26.231 WARN] Mp4Utils > File needs repairs and repairs are possible
+[FG W P:10336 T:021804 D:11 17-12-23 13:33:35.479 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[?? X P:1176 T:010104 D:-1 17-12-23 13:33:44.168 INFO] Logging started
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.325 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.325 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.325 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.325 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.325 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2349.2              |
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.327 WARN] App.xaml/InitializeModel >   |         Start Time: 2023-12-17, 13:33:44          |
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.327 WARN] App.xaml/InitializeModel >   |         Build Time: 2023-12-11, 13:24:43          |
+[?? X P:1176 T:010104 D:04 17-12-23 13:33:44.327 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:1176 T:017704 D:-1 17-12-23 13:33:44.520 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:1176 T:017704 D:-1 17-12-23 13:33:44.520 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:1176 T:017704 D:-1 17-12-23 13:33:44.539 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:1176 T:008724 D:11 17-12-23 13:33:45.572 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:008724 D:11 17-12-23 13:33:45.666 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:000296 D:11 17-12-23 13:33:49.107 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:020832 D:11 17-12-23 13:33:54.769 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:020460 D:-1 17-12-23 13:33:55.008 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:1176 T:022632 D:-1 17-12-23 13:33:55.009 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:1176 T:006960 D:-1 17-12-23 13:33:55.016 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:1176 T:018668 D:11 17-12-23 13:33:57.690 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:019644 D:11 17-12-23 13:34:16.364 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:019644 D:11 17-12-23 13:34:16.398 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022316 D:11 17-12-23 13:35:12.201 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:022316 D:11 17-12-23 13:35:12.235 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:017808 D:11 17-12-23 13:35:19.717 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:018728 D:11 17-12-23 13:50:54.180 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:019308 D:11 17-12-23 14:06:03.243 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:006264 D:11 17-12-23 14:20:50.596 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:019632 D:11 17-12-23 14:36:23.377 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021672 D:11 17-12-23 14:51:33.555 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:018472 D:11 17-12-23 15:06:43.395 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:015908 D:11 17-12-23 15:21:53.534 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:003624 D:11 17-12-23 15:37:04.262 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:002784 D:11 17-12-23 15:52:02.224 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021848 D:11 17-12-23 15:58:56.939 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:002680 D:11 17-12-23 15:59:22.950 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:013268 D:11 17-12-23 16:00:18.737 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:020820 D:11 17-12-23 16:03:25.008 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022376 D:11 17-12-23 16:06:17.473 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021320 D:11 17-12-23 16:07:22.222 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:008920 D:11 17-12-23 16:08:01.930 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:004628 D:11 17-12-23 16:09:48.497 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:011752 D:11 17-12-23 16:10:10.276 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:023356 D:11 17-12-23 16:10:37.737 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:023356 D:11 17-12-23 16:10:37.774 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:009412 D:11 17-12-23 16:10:38.734 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:018872 D:11 17-12-23 16:11:27.156 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021840 D:11 17-12-23 16:11:42.399 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:003840 D:11 17-12-23 16:11:57.902 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:003840 D:11 17-12-23 16:11:57.932 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:012392 D:11 17-12-23 16:13:29.022 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:012392 D:11 17-12-23 16:13:29.047 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:020560 D:11 17-12-23 16:13:33.718 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:006364 D:11 17-12-23 16:13:35.415 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:010136 D:11 17-12-23 16:13:51.588 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: ProcessMessageContextInfo, write:True, requested lockType: Write
+[BT W P:1176 T:010136 D:11 17-12-23 16:13:51.615 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:011420 D:11 17-12-23 16:17:20.856 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:011584 D:11 17-12-23 16:17:49.155 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022984 D:11 17-12-23 16:18:39.326 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:011184 D:11 17-12-23 16:19:07.053 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:005644 D:11 17-12-23 16:19:40.251 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:018240 D:11 17-12-23 16:20:03.042 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021796 D:11 17-12-23 16:21:49.051 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:008292 D:11 17-12-23 16:22:08.952 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021520 D:11 17-12-23 16:22:30.373 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:012888 D:11 17-12-23 16:22:56.529 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022164 D:11 17-12-23 16:23:23.555 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:013028 D:11 17-12-23 16:24:02.910 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022492 D:11 17-12-23 16:24:31.088 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:017640 D:11 17-12-23 16:25:43.704 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:013092 D:11 17-12-23 16:26:44.278 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:002524 D:11 17-12-23 16:28:19.874 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:018556 D:11 17-12-23 16:29:27.425 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:018152 D:11 17-12-23 16:30:32.095 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022836 D:11 17-12-23 16:35:52.774 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021528 D:11 17-12-23 16:37:44.280 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:012600 D:11 17-12-23 16:43:31.006 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022176 D:11 17-12-23 16:43:54.772 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:004460 D:11 17-12-23 16:52:02.266 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: SetDevicesForUser, write:True, requested lockType: ReadOnly
+[BT W P:1176 T:004460 D:11 17-12-23 16:52:02.299 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:019932 D:11 17-12-23 17:03:53.404 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022468 D:11 17-12-23 17:08:05.196 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021804 D:11 17-12-23 17:22:02.443 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022564 D:11 17-12-23 17:38:24.845 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: SetDevicesForUser, write:True, requested lockType: ReadOnly
+[BT W P:1176 T:022564 D:11 17-12-23 17:38:24.945 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.959 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.965 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.982 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.984 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.984 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.985 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:24.995 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:25.002 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:25.013 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:25.017 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:25.028 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:25.036 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:013556 D:-1 17-12-23 17:38:30.009 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5005ms, rebind with relay
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.634 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.729 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.730 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.730 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.730 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:31.730 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.424 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.428 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:1176 T:014344 D:11 17-12-23 17:38:46.429 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.431 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.432 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.432 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.432 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:46.433 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:46.821 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:46.821 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:46.821 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:46.821 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:007244 D:-1 17-12-23 17:38:46.821 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:47.872 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:47.889 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:47.889 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:47.889 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:47.889 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:1176 T:021696 D:-1 17-12-23 17:38:48.463 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:1176 T:012356 D:11 17-12-23 17:43:05.133 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:008480 D:11 17-12-23 17:52:02.633 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:002996 D:11 17-12-23 17:53:28.322 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:016784 D:11 17-12-23 17:57:30.332 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:022712 D:11 17-12-23 17:59:19.484 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:002744 D:11 17-12-23 18:08:44.683 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:1176 T:014308 D:11 17-12-23 18:22:02.175 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[FG W P:1176 T:008124 D:-1 17-12-23 19:07:46.894 WARN] soundport > Stop ignored - no audio driver
+[?? X P:7712 T:004112 D:-1 17-12-23 19:09:24.977 INFO] Logging started
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2349.2              |
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >   |         Start Time: 2023-12-17, 19:09:25          |
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >   |         Build Time: 2023-12-11, 13:24:43          |
+[?? X P:7712 T:004112 D:04 17-12-23 19:09:25.101 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:7712 T:020620 D:-1 17-12-23 19:09:25.367 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:7712 T:020620 D:-1 17-12-23 19:09:25.367 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:7712 T:020620 D:-1 17-12-23 19:09:25.373 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:7712 T:016184 D:11 17-12-23 19:10:35.060 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:012528 D:-1 17-12-23 19:10:44.361 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:7712 T:012528 D:-1 17-12-23 19:10:44.361 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[BT W P:7712 T:012528 D:-1 17-12-23 19:10:44.367 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[BT W P:7712 T:010056 D:11 17-12-23 19:22:29.528 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:014864 D:11 17-12-23 19:25:00.394 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:010560 D:11 17-12-23 19:25:20.822 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:014100 D:11 17-12-23 19:25:49.910 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:020564 D:11 17-12-23 19:26:47.194 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:019304 D:11 17-12-23 19:27:51.953 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:012724 D:11 17-12-23 19:28:49.664 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:018896 D:11 17-12-23 19:29:14.266 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:004164 D:11 17-12-23 19:29:54.452 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:017072 D:11 17-12-23 19:37:02.246 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:023464 D:11 17-12-23 19:38:08.557 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021340 D:11 17-12-23 19:48:30.762 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:014608 D:11 17-12-23 20:14:39.564 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021064 D:-1 17-12-23 20:14:39.571 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:7712 T:021064 D:-1 17-12-23 20:14:39.586 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:7712 T:021064 D:-1 17-12-23 20:14:39.589 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:14:39.594 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:7712 T:017764 D:-1 17-12-23 20:14:39.650 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:017764 D:-1 17-12-23 20:14:39.650 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:017764 D:-1 17-12-23 20:14:39.650 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:017764 D:-1 17-12-23 20:14:39.650 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:017764 D:-1 17-12-23 20:14:39.650 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:017696 D:-1 17-12-23 20:14:44.697 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 4 (dir 2) for 5045ms, rebind with relay
+[BT W P:7712 T:017696 D:-1 17-12-23 20:14:49.739 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 4 (dir 2) for 5019ms, rebind with relay
+[BT W P:7712 T:017696 D:-1 17-12-23 20:14:54.795 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 4 (dir 2) for 5032ms, rebind with relay
+[BT W P:7712 T:017696 D:-1 17-12-23 20:15:24.460 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 4 (dir 2) for 29317ms, rebind with relay
+[BT W P:7712 T:021064 D:-1 17-12-23 20:15:24.988 WARN] voip > wa_call_signaling.c  send_call_summary_event_from_xmpp_call_summary: call summary is empty
+[BT W P:7712 T:014604 D:11 17-12-23 20:15:25.091 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021064 D:-1 17-12-23 20:15:25.106 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:7712 T:021064 D:-1 17-12-23 20:15:25.106 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:7712 T:021064 D:-1 17-12-23 20:15:25.106 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:7712 T:021064 D:-1 17-12-23 20:15:25.106 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.278 ERROR] voip > wa_voip_param_utils  Parameter p->conds.cond_codec_type conversion fails
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.282 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:7712 T:002356 D:11 17-12-23 20:29:13.282 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.286 ERROR] voip > wa_transport.cc  network medium event: unknown peer id
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.286 ERROR] voip > wa_voip_client_storage  wa_storage_load : File /wa_voip_history.json does not exist status:70004. Moving on.
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.286 ERROR] voip > wa_voip_history.c  wa_storage_load failed (common reason: file does not exist), status: 70004
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.286 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.286 WARN] voip > wa_transport_active_so  Warning: qos setting failed: status = 70012
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.290 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.290 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.290 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.290 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:13.290 WARN] voip > wa_transport_relay_ele  update_best_relays: no tx relays available
+[BT W P:7712 T:019004 D:-1 17-12-23 20:29:18.698 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5037ms, rebind with relay
+[BT W P:7712 T:019004 D:-1 17-12-23 20:29:23.754 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 0 (dir 2) for 5049ms, rebind with relay
+[BT W P:7712 T:019004 D:-1 17-12-23 20:29:28.801 ERROR] voip > wa_transport.cc !No data or pings from UDP relay 0 (dir 2) for 5040ms, rebind with relay
+[BT W P:7712 T:019004 D:-1 17-12-23 20:29:46.570 ERROR] voip > wa_transport.cc  No data or pings from UDP relay 0 (dir 2) for 17762ms, rebind with relay
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.123 WARN] voip > wa_voip_history.c  wa_voip_history_save_call_transport_record_condition_check exception: call duration 0 < 10
+[BT W P:7712 T:019004 D:-1 17-12-23 20:29:47.188 ERROR] voip > wa_transport.cc !worker thread exiting, do not process the cb queue.
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.188 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() WARNING: rating set by platform is -1.0 not recording it in WAM FS event
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.188 WARN] VoipBridgeFieldstats > FieldStats_SubmitWithUserRating() MediaManager - Total time spent in getting camera permissions = 0 ms
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.188 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.188 ERROR] FieldStatsInterop > [error] FieldStats callbacks are NULL
+[BT W P:7712 T:021064 D:-1 17-12-23 20:29:47.188 WARN] voip > wa_call_signaling.c  record_incoming_msg: no active call
+[BT W P:7712 T:021320 D:11 17-12-23 20:29:47.202 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:022204 D:11 17-12-23 20:36:48.659 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021696 D:11 17-12-23 20:52:02.300 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:000304 D:11 17-12-23 21:36:48.707 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:019228 D:11 17-12-23 21:36:58.510 WARN] MessagesContext.Statics/GetToken > Recursive. Previous:DbAccess: SetDevicesForUser, write:True, requested lockType: ReadOnly
+[BT W P:7712 T:012344 D:11 17-12-23 21:52:02.355 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021352 D:11 17-12-23 22:36:50.024 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:005968 D:11 17-12-23 22:52:03.574 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:008640 D:11 17-12-23 23:36:49.163 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped
+[BT W P:7712 T:021996 D:11 17-12-23 23:52:02.799 WARN] FastLog/StartUploadingCrashLogFiles > upload attempt skipped

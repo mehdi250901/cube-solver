@@ -1,0 +1,48 @@
+{
+  "everyonePermissions": {
+    "artifactPermissionsItem": {
+      "read": false,
+      "write": false,
+      "create": false,
+      "delete": false
+    },
+    "fieldsDefaultRead": false,
+    "fieldsDefaultWrite": false,
+    "fieldPermissionsItems": {}
+  },
+  "rolePermissions": {
+    "ro.reader": {
+      "artifactPermissionsItem": {
+        "read": true,
+        "write": false,
+        "create": false,
+        "delete": false
+      },
+      "fieldsDefaultRead": true,
+      "fieldsDefaultWrite": false,
+      "fieldPermissionsItems": {}
+    },
+    "ro.contributor": {
+      "artifactPermissionsItem": {
+        "read": true,
+        "write": false,
+        "create": false,
+        "delete": false
+      },
+      "fieldsDefaultRead": true,
+      "fieldsDefaultWrite": false,
+      "fieldPermissionsItems": {}
+    },
+    "ro.project_manager": {
+      "artifactPermissionsItem": {
+        "read": true,
+        "write": false,
+        "create": false,
+        "delete": false
+      },
+      "fieldsDefaultRead": true,
+      "fieldsDefaultWrite": false,
+      "fieldPermissionsItems": {}
+    }
+  }
+}

@@ -1,0 +1,99 @@
+2023-12-20 21:05:07.985 [info] Log level: Info
+2023-12-20 21:05:07.985 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-12-20 21:05:07.985 [info] Using git "2.33.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2023-12-20 21:08:02.768 [info] > git clone https://gitlab.com/mehdi250901/esgi.4a.render.static.git c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static --progress [2171ms]
+2023-12-20 21:08:02.768 [info] Cloning into 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static'...
+remote: Enumerating objects: 39, done.        
+remote: Counting objects:   2% (1/39)        remote: Counting objects:   5% (2/39)        remote: Counting objects:   7% (3/39)        remote: Counting objects:  10% (4/39)        remote: Counting objects:  12% (5/39)        remote: Counting objects:  15% (6/39)        remote: Counting objects:  17% (7/39)        remote: Counting objects:  20% (8/39)        remote: Counting objects:  23% (9/39)        remote: Counting objects:  25% (10/39)        remote: Counting objects:  28% (11/39)        remote: Counting objects:  30% (12/39)        remote: Counting objects:  33% (13/39)        remote: Counting objects:  35% (14/39)        remote: Counting objects:  38% (15/39)        remote: Counting objects:  41% (16/39)        remote: Counting objects:  43% (17/39)        remote: Counting objects:  46% (18/39)        remote: Counting objects:  48% (19/39)        remote: Counting objects:  51% (20/39)        remote: Counting objects:  53% (21/39)        remote: Counting objects:  56% (22/39)        remote: Counting objects:  58% (23/39)        remote: Counting objects:  61% (24/39)        remote: Counting objects:  64% (25/39)        remote: Counting objects:  66% (26/39)        remote: Counting objects:  69% (27/39)        remote: Counting objects:  71% (28/39)        remote: Counting objects:  74% (29/39)        remote: Counting objects:  76% (30/39)        remote: Counting objects:  79% (31/39)        remote: Counting objects:  82% (32/39)        remote: Counting objects:  84% (33/39)        remote: Counting objects:  87% (34/39)        remote: Counting objects:  89% (35/39)        remote: Counting objects:  92% (36/39)        remote: Counting objects:  94% (37/39)        remote: Counting objects:  97% (38/39)        remote: Counting objects: 100% (39/39)        remote: Counting objects: 100% (39/39), done.        
+remote: Compressing objects:   2% (1/36)        remote: Compressing objects:   5% (2/36)        remote: Compressing objects:   8% (3/36)        remote: Compressing objects:  11% (4/36)        remote: Compressing objects:  13% (5/36)        remote: Compressing objects:  16% (6/36)        remote: Compressing objects:  19% (7/36)        remote: Compressing objects:  22% (8/36)        remote: Compressing objects:  25% (9/36)        remote: Compressing objects:  27% (10/36)        remote: Compressing objects:  30% (11/36)        remote: Compressing objects:  33% (12/36)        remote: Compressing objects:  36% (13/36)        remote: Compressing objects:  38% (14/36)        remote: Compressing objects:  41% (15/36)        remote: Compressing objects:  44% (16/36)        remote: Compressing objects:  47% (17/36)        remote: Compressing objects:  50% (18/36)        remote: Compressing objects:  52% (19/36)        remote: Compressing objects:  55% (20/36)        remote: Compressing objects:  58% (21/36)        remote: Compressing objects:  61% (22/36)        remote: Compressing objects:  63% (23/36)        remote: Compressing objects:  66% (24/36)        remote: Compressing objects:  69% (25/36)        remote: Compressing objects:  72% (26/36)        remote: Compressing objects:  75% (27/36)        remote: Compressing objects:  77% (28/36)        remote: Compressing objects:  80% (29/36)        remote: Compressing objects:  83% (30/36)        remote: Compressing objects:  86% (31/36)        remote: Compressing objects:  88% (32/36)        remote: Compressing objects:  91% (33/36)        remote: Compressing objects:  94% (34/36)        remote: Compressing objects:  97% (35/36)        remote: Compressing objects: 100% (36/36)        remote: Compressing objects: 100% (36/36), done.        
+Receiving objects:   2% (1/39)Receiving objects:   5% (2/39)Receiving objects:   7% (3/39)Receiving objects:  10% (4/39)Receiving objects:  12% (5/39)Receiving objects:  15% (6/39)Receiving objects:  17% (7/39)Receiving objects:  20% (8/39)Receiving objects:  23% (9/39)Receiving objects:  25% (10/39)Receiving objects:  28% (11/39)Receiving objects:  30% (12/39)Receiving objects:  33% (13/39)Receiving objects:  35% (14/39)Receiving objects:  38% (15/39)Receiving objects:  41% (16/39)Receiving objects:  43% (17/39)Receiving objects:  46% (18/39)Receiving objects:  48% (19/39)Receiving objects:  51% (20/39)Receiving objects:  53% (21/39)Receiving objects:  56% (22/39)Receiving objects:  58% (23/39)Receiving objects:  61% (24/39)remote: Total 39 (delta 2), reused 0 (delta 0), pack-reused 0        
+Receiving objects:  64% (25/39)Receiving objects:  66% (26/39)Receiving objects:  69% (27/39)Receiving objects:  71% (28/39)Receiving objects:  74% (29/39)Receiving objects:  76% (30/39)Receiving objects:  79% (31/39)Receiving objects:  82% (32/39)Receiving objects:  84% (33/39)Receiving objects:  87% (34/39)Receiving objects:  89% (35/39)Receiving objects:  92% (36/39)Receiving objects:  94% (37/39)Receiving objects:  97% (38/39)Receiving objects: 100% (39/39)Receiving objects: 100% (39/39), 503.59 KiB | 3.65 MiB/s, done.
+Resolving deltas:   0% (0/2)Resolving deltas:  50% (1/2)Resolving deltas: 100% (2/2)Resolving deltas: 100% (2/2), done.
+2023-12-20 21:08:13.747 [info] Log level: Info
+2023-12-20 21:08:13.748 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-12-20 21:08:13.748 [info] Using git "2.33.0.windows.2" from "C:\Program Files\Git\cmd\git.exe"
+2023-12-20 21:08:13.791 [info] > git rev-parse --show-toplevel [85ms]
+2023-12-20 21:08:13.860 [info] > git rev-parse --git-dir --git-common-dir [59ms]
+2023-12-20 21:08:13.882 [info] Open repository: c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static
+2023-12-20 21:08:13.984 [info] > git config --get commit.template [87ms]
+2023-12-20 21:08:13.990 [info] > git rev-parse --show-toplevel [87ms]
+2023-12-20 21:08:14.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [89ms]
+2023-12-20 21:08:14.016 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-20 21:08:14.058 [info] > git rev-parse --show-toplevel [61ms]
+2023-12-20 21:08:14.072 [info] > git rev-parse refs/remotes/origin/main [56ms]
+2023-12-20 21:08:14.162 [info] > git status -z -uall [81ms]
+2023-12-20 21:08:14.267 [info] > git config --get commit.template [69ms]
+2023-12-20 21:08:14.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [72ms]
+2023-12-20 21:08:14.284 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-20 21:08:14.360 [info] > git rev-parse refs/remotes/origin/main [76ms]
+2023-12-20 21:08:14.468 [info] > git status -z -uall [102ms]
+2023-12-20 21:08:14.501 [info] > git check-ignore -v -z --stdin [77ms]
+2023-12-20 21:09:24.050 [info] > git check-ignore -v -z --stdin [74ms]
+2023-12-20 21:09:27.239 [info] > git check-ignore -v -z --stdin [61ms]
+2023-12-20 21:09:28.799 [info] > git check-ignore -v -z --stdin [59ms]
+2023-12-20 21:09:32.397 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\src\App.vue [90ms]
+2023-12-20 21:09:32.410 [info] > git show --textconv :src/App.vue [117ms]
+2023-12-20 21:09:32.658 [info] > git cat-file -s 33a192beba3104ff65f38b1289c536c05bad6392 [255ms]
+2023-12-20 21:09:35.327 [info] > git show --textconv :src/main.js [115ms]
+2023-12-20 21:09:35.331 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\src\main.js [110ms]
+2023-12-20 21:09:35.419 [info] > git cat-file -s 5dcad83c30800a564e96bad81c93d6be2ffaceaa [80ms]
+2023-12-20 21:09:36.188 [info] > git check-ignore -v -z --stdin [103ms]
+2023-12-20 21:09:43.207 [info] > git show --textconv :index.html [78ms]
+2023-12-20 21:09:43.209 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\index.html [68ms]
+2023-12-20 21:09:43.271 [info] > git cat-file -s e6ca27c0bcb7addd515e2441012753faf85a187c [57ms]
+2023-12-20 21:09:45.801 [info] > git show --textconv :package-lock.json [59ms]
+2023-12-20 21:09:45.807 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\package-lock.json [57ms]
+2023-12-20 21:09:45.860 [info] > git cat-file -s 88319b991d3ccd2f48b05490de7a598bfb3969bb [47ms]
+2023-12-20 21:09:48.705 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\package.json [104ms]
+2023-12-20 21:09:48.720 [info] > git show --textconv :package.json [129ms]
+2023-12-20 21:09:48.784 [info] > git cat-file -s 2c3f11f111c26b2ec845ef84a7f932588fade53a [72ms]
+2023-12-20 21:09:53.372 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\postcss.config.js [92ms]
+2023-12-20 21:09:53.382 [info] > git show --textconv :postcss.config.js [113ms]
+2023-12-20 21:09:53.455 [info] > git cat-file -s 33ad091d26d8a9dc95ebdf616e217d985ec215b8 [73ms]
+2023-12-20 21:09:55.749 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\tailwind.config.js [78ms]
+2023-12-20 21:09:55.757 [info] > git show --textconv :tailwind.config.js [93ms]
+2023-12-20 21:09:55.831 [info] > git cat-file -s 55d1fb970d81b2818576dcc725e6c52fc84af066 [75ms]
+2023-12-20 21:09:57.455 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\vite.config.js [69ms]
+2023-12-20 21:09:57.476 [info] > git show --textconv :vite.config.js [101ms]
+2023-12-20 21:09:57.534 [info] > git cat-file -s 5c45e1d9b4e65e3a35bb0435436935a3090b5591 [71ms]
+2023-12-20 23:40:56.763 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\package-lock.json [131ms]
+2023-12-20 23:40:56.775 [info] > git show --textconv :package-lock.json [152ms]
+2023-12-20 23:40:56.833 [info] > git cat-file -s 88319b991d3ccd2f48b05490de7a598bfb3969bb [63ms]
+2023-12-20 23:41:03.053 [info] > git show --textconv :package.json [61ms]
+2023-12-20 23:41:03.058 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\package.json [60ms]
+2023-12-20 23:41:03.113 [info] > git cat-file -s 2c3f11f111c26b2ec845ef84a7f932588fade53a [50ms]
+2023-12-21 00:20:05.293 [info] > git ls-files --stage -- C:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\package-lock.json [51ms]
+2023-12-21 00:20:05.305 [info] > git show --textconv :package-lock.json [68ms]
+2023-12-21 00:20:05.340 [info] > git cat-file -s 88319b991d3ccd2f48b05490de7a598bfb3969bb [41ms]
+2023-12-21 00:30:07.913 [info] > git check-ignore -v -z --stdin [99ms]
+2023-12-21 00:30:07.975 [info] > git config --get commit.template [77ms]
+2023-12-21 00:30:07.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [87ms]
+2023-12-21 00:30:08.014 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:30:08.077 [info] > git rev-parse refs/remotes/origin/main [65ms]
+2023-12-21 00:30:08.191 [info] > git status -z -uall [107ms]
+2023-12-21 00:30:17.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [53ms]
+2023-12-21 00:30:17.906 [info] > git config --get commit.template [60ms]
+2023-12-21 00:30:17.912 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:30:17.954 [info] > git rev-parse refs/remotes/origin/main [43ms]
+2023-12-21 00:30:18.026 [info] > git status -z -uall [67ms]
+2023-12-21 00:30:23.082 [info] > git config --get commit.template [35ms]
+2023-12-21 00:30:23.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [37ms]
+2023-12-21 00:30:23.092 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:30:23.125 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2023-12-21 00:30:23.168 [info] > git status -z -uall [40ms]
+2023-12-21 00:30:57.115 [info] > git check-ignore -v -z --stdin [43ms]
+2023-12-21 00:30:57.276 [info] > git config --get commit.template [37ms]
+2023-12-21 00:30:57.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [40ms]
+2023-12-21 00:30:57.286 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:30:57.320 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2023-12-21 00:30:57.365 [info] > git status -z -uall [42ms]
+2023-12-21 00:31:18.625 [info] > git config --get commit.template [36ms]
+2023-12-21 00:31:18.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [37ms]
+2023-12-21 00:31:18.634 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:31:18.665 [info] > git rev-parse refs/remotes/origin/main [30ms]
+2023-12-21 00:31:18.709 [info] > git status -z -uall [41ms]
+2023-12-21 00:33:32.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [41ms]
+2023-12-21 00:33:32.960 [warning] ENOENT: no such file or directory, open 'c:\Users\mehdi\Documents\plateformes cloud\entrainement\esgi.4a.render.static\.git\refs\remotes\origin\main'
+2023-12-21 00:33:32.961 [info] > git config --get commit.template [49ms]
+2023-12-21 00:33:32.993 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2023-12-21 00:33:33.037 [info] > git status -z -uall [41ms]

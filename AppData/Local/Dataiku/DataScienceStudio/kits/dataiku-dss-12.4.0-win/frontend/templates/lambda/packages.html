@@ -1,0 +1,111 @@
+<div class="list-page-4 flex dss-home-page list-page--flat-design">
+    <div data-extend-template="/templates/layouts/list-items-2.html" class="vertical-flex main-panel" ng-class="{'main-panel--reduced': standardizedSidePanel.opened}">
+        <!-- COUNTER -->
+        <span data-block="counter-name">
+            {{ 'Version' | plurify : selection.allObjects.length }}
+        </span>
+
+        <!--  NEW   -->
+        <div data-block="newItem">
+            <a class="btn btn--secondary" ng-click="startPreparePackage()">
+                <i plus-icon />&nbsp;New version
+            </a>
+        </div>
+
+        <div data-block="empty">
+            <div class="empty-list-cta" ng-if="packages && !packages.length && service.endpoints.length" >
+                <h1>
+                    No versions yet
+                </h1>
+                <p>
+                    Create versions of your API service to deploy and use it
+                </p>
+                <p class="small">
+                    <span doclink-wrapper page="apinode/index">Read the documentation</span> to learn more.
+                </p>
+                <div class="import-first-dataset">
+                    <a disabled-if-ro="" class="btn btn--contained btn--large btn--settings btn-import" ng-click="startPreparePackage()">
+                        <span plus-icon /> &nbsp;Create your first version
+                    </a>
+                </div>
+            </div>
+            <div class="empty-list-cta" ng-if="!service.endpoints.length" >
+                <h1>
+                    This service is empty, create an endpoint before creating a version
+                </h1>
+            </div>
+        </div>
+
+        <!-- MASS ACTION -->
+        <div class="noflex dropdown mass-action-btn" data-block="mass-actions">
+            <input type="checkbox"
+                class="select-cb"
+                ng-model="selection.all"
+                dku-indeterminate="selection.some"
+                ng-change="updateMassSelectionCheckbox()"
+            >
+            <a data-toggle="dropdown"
+                class="dropdown-toggle unselectable"
+                ng-class="{disabled: selection.selectedObjects.length == 0, collapsed: selection.none}">
+                <span ng-hide="selection.none">ACTIONS</span>
+                <b class="caret"></b>
+            </a>
+            <ul data-block="mass-action-dropdrop-menu" class="dropdown-menu dropdown-menu--dku-icon">
+                <li>
+                    <a ng-click="publishVersionOnDeployer(selection.selectedObject.id)"
+                        disabled-if="!appConfig.deployerClientEnabled || selection.selectedObjects && selection.selectedObjects.length > 1"
+                        disabled-message="{{ !appConfig.deployerClientEnabled ? 'Deployer is not enabled' : 'API Version can only be published one at a time' }}">
+                        <i class="dku-icon-api-service-push-16"/>Publish on Deployer
+                    </a>
+                </li>
+                <li>
+                    <a ng-click="isProjectAdmin() && downloadPackageSelected()"
+                        ng-class="{ 'disabled': (selection.selectedObjects === null || selection.selectedObjects.length < 1)}">
+                        <i class="dku-icon-arrow-download-16"/>Download as API package
+                    </a>
+                </li>
+                <li>
+                    <a ng-click="isProjectAdmin() && deletePackageSelected()" 
+                        ng-class="{ 'disabled': (selection.selectedObjects === null || selection.selectedObjects.length < 1)}">
+                        <i class="dku-icon-trash-16"/>Delete
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ITEM LAYOUT -->
+        <div data-block="item" class="h100">
+            <label disable-main-click> <!-- Make sure the label do not activate the checkbox because of click conflict with "main-click" -->
+                <span style="display:none;" main-click ng-click="objectClicked(item, $event)"></span> <!-- because checkbox click is prioritary -->
+                <input type="checkbox" ng-model="item.$selected" ng-click="checkBoxChanged(item, $event)" />
+            </label>
+            <div class="hit" dataset="item">
+                <div class="illustration">
+                    <i class="dku-icon-cloud-24 universe-color lambda-service"></i>
+                </div>
+                <div class="hitContent">
+                    <div class="hit-content-main">
+                        <div class="horizontal-flex">
+                            <div class="flex">
+                                <h4 class="hit-content-main__title">
+                                    {{item.id}}
+                                </h4>
+                                <div class="hit-content-main__subtitle">
+                                    Built on {{ item.mtime | date: 'yyyy-MM-dd HH:mm'}}
+                                <span ng-show="item.lastModifiedOn">
+                                    | Modified {{ item.lastModifiedOn | friendlyTimeDeltaShort }}
+                                </span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <standardized-side-panel
+        page="objects_list"
+        object-type="{{ (selection.selectedObjects.length <= 1) ? ((selection.selectedObject) ? 'LAMBDA_PACKAGE' : '') : 'LAMBDA_PACKAGE_MULTI' }}"
+        single-type="LAMBDA_PACKAGE">
+    </standardized-side-panel>
+</div>

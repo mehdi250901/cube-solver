@@ -1,0 +1,170 @@
+<div>
+    <div ng-if="insight.$savedModel.miniTask.taskType == 'PREDICTION' && modelData.backendType !== 'DEEP_HUB'" class="mbot8">
+        <div>
+            <select ng-model="tileParams.displayModeExtended" ng-change="onDisplayModeExtendedChange()" dku-bs-select class="view-select">
+                <option value="summary" >Summary</option>
+                <option ng-if="modelData.backendType == 'PY_MEMORY' && !isForecast() && !isCausalPrediction()" value="interactive_scoring">What if?</option>
+                <option value="ts_forecast" ng-if="isForecast() && !isPartitionedModel()">Forecast charts</option>
+
+                <optgroup label="Explainability" ng-if="!isPartitionedModel() && !isForecast() && !isMultiValueTreatment()">
+                    <option ng-if="isModelWithSingleTree() && !isCausalPrediction()" value="tree_summary" >Decision Tree</option>
+                    <option ng-if="isModelWithMultipleTrees() && !isCausalPrediction()" value="ensemble_summary" >Decision Tree</option>
+                    <!-- Only show if either global explanations or variable importance are already computed as the Compute Now button cannot be pressed in read-only dashboard tiles -->
+                    <option value="feature_importance" >Feature importance</option>
+                    <option ng-if="hasRawCoefficients() && !isMulticlass()" value="coefficients" >Regression coefficients</option>
+
+                    <option ng-if="(modelData.backendType == 'PY_MEMORY' || modelData.backendType == 'KERAS') && !isCausalPrediction()" value="pdp_plot" >Partial dependence</option>
+                    <option ng-if="(modelData.backendType == 'PY_MEMORY' || modelData.backendType == 'KERAS') && !isMulticlass() && !isCausalPrediction()" value="subpopulation">Subpopulation analysis</option>
+                    <option ng-if="modelData.backendType == 'PY_MEMORY' && !isCausalPrediction()" value="individual_explanations">Individual explanations</option>
+
+                </optgroup>
+
+                <optgroup label="Performance">
+                    <option ng-if="isMulticlass()" value="mc_confusion">Confusion matrix</option>
+                    <option ng-if="isBinaryClassification()" value="bc_confusion" >Confusion matrix</option>
+                    <option ng-if="isBinaryClassification() && ModelDataUtils.hasProbas(modelData) && !isPartitionedModel()" value="bc_decision_chart">Decision chart</option>
+                    <option ng-if="isBinaryClassification() && ModelDataUtils.hasProbas(modelData) && !isPartitionedModel()" value="bc_lift">Lift charts</option>
+                    <option ng-if="isClassification() && ModelDataUtils.hasProbas(modelData) && !isPartitionedModel()" value="c_calibration">Probability calibration</option>
+                    <option ng-if="hasROCCurve() && !isPartitionedModel()" value="c_roc">ROC curve</option>
+                    <option ng-if="hasPRCurve() && !isPartitionedModel()"  value="c_precision_recall">PR curve</option>
+                    <option ng-if="hasProbabilityDensities() && !isPartitionedModel()" value="c_density_chart">Density chart</option>
+                    <option ng-if="isRegression() && !isPartitionedModel()" value="r_scatter">Scatter plot</option>
+                    <option ng-if="isRegression() && !isPartitionedModel()" value="r_error">Error distribution</option>
+                    <option ng-if="!isCausalPrediction()" value="performance-metrics">Metrics{{ isForecast() ? '' : ' and assertions' }}</option>
+                    <option ng-if="isForecast() && modelData.coreParams.timeseriesIdentifiers.length && !isPartitionedModel()" value="per_time_series_metrics">Per time series metrics</option>
+                </optgroup>
+
+                <optgroup ng-if="isCausalPrediction()" label="Causal Performance">
+                    <option ng-if="!isMultiValueTreatment()" value="uplift_curve">Uplift charts</option>
+                    <option ng-if="!isMultiValueTreatment()" value="cate_distribution">Predicted treatment effect</option>
+                    <option value="performance-metrics">Metrics</option>
+                </optgroup>
+
+                <optgroup ng-if="isCausalPrediction() && !isMultiValueTreatment()" label="Treatment analysis">
+                    <option value="propensity_randomness">Treatment randomization</option>
+                    <option value="propensity_positivity">Positivity analysis</option>
+                </optgroup>
+
+                <optgroup label="Model information">
+                    <option ng-if="!isExternalMLflowModel()" value="preparation">Data preparation</option>
+                    <option ng-if="isForecast()" value="resampling"> Time series resampling</option>
+                    <option value="features">Features</option>
+                    <option ng-if="!isExternalMLflowModel() && !isPartitionedModel()" value="algorithm">Algorithm</option>
+                    <option ng-if="isAutoArimaModel() && !isPartitionedModel()" value="autoarima_orders">ARIMA orders</option>
+                    <option ng-if="isTimeseriesModelWithCoefficients() && !isPartitionedModel()" value="timeseries_model_coefficients">Model coefficients</option>
+                    <option ng-if="!isExternalMLflowModel() && modelData.iperf.usedGridSearch && modelData.iperf.gridCells.length > 1" value="grid_search">Hyperparameter Optimization</option>
+                    <option ng-if="!isExternalMLflowModel()" value="train">Training information</option>
+                    <option ng-if="supportsOverrides()" value="overrides_metrics">Override Metrics</option>
+                </optgroup>
+
+                <optgroup label="Model views" ng-if="!isPartitionedModel()">
+                    <option ng-repeat="skin in modelSkins" ng-value="displayModeExtendedForSkin(skin.id)">{{(skin.desc.meta.label || skin.id)}}</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div ng-if="tileParams.displayMode == 'interactive_scoring'">
+            <label class="control-label">Advanced options <i toggle="tooltip-right" container="body" title="Use interactiveScoring.featuresOrder to order the features. Omitted features will be collapsed at the end." class="icon-question-sign"></i></label>
+            <div class="controls">
+                <textarea json-object-pretty-view ng-model="tileParams.advancedOptions.interactiveScoring" class="tile-params__json-input"></textarea>
+            </div>
+        </div>
+        <div ng-if="tileParams.displayMode === 'overrides_metrics'">
+            <label class="control-label">Overrides Display Mode</label>
+
+            <select ng-model="tileParams.advancedOptions.overridesMetrics.displayMode" dku-bs-select class="view-select">
+                <option value="sankey">Sankey Chart</option>
+                <option value="table">Table</option>
+                <option value="comparison">Metrics Comparison With/Without Overrides</option>
+            </select>
+        </div>
+        <div ng-if="tileParams.displayMode == 'uplift_curve'">
+            <label class="control-label">Displayed chart</label>
+            <select ng-model="tileParams.advancedOptions.upliftCurve.displayMode"  dku-bs-select class="view-select">
+                <option value="cumulativeUplift">Cumulative uplit</option>
+                <option value="qini">Qini</option>
+            </select>
+        </div>
+
+        <div ng-if="tileParams.displayMode == 'feature_importance'" class="mtop8">
+            <label class="control-label">Importance method</label>
+            <select ng-model="tileParams.advancedOptions.featureImportance.importanceDisplayMode" dku-bs-select ng-disabled="!hasVariableImportance() || !supportsShapleyFeatureImportance()">
+                <option value="variableImportance" ng-if="hasVariableImportance()">Gini</option>
+                <option value="globalExplanations" ng-if="supportsShapleyFeatureImportance()">Shapley</option>
+            </select>
+        </div>
+
+        <div ng-if="tileParams.displayMode == 'feature_importance' && tileParams.advancedOptions.featureImportance.importanceDisplayMode == 'globalExplanations'"
+             class="mtop8">
+            <label class="control-label">Graph</label>
+            <select ng-model="tileParams.advancedOptions.featureImportance.graphType" dku-bs-select>
+                <option value="absoluteFeatureImportance">Absolute Feature Importance</option>
+                <option value="featureEffects">Feature Effects</option>
+                <option value="featureDependence">Feature Dependence</option>
+            </select>
+        </div>
+    </div>
+
+    <div ng-if="insight.$savedModel.miniTask.taskType == 'PREDICTION' && modelData.backendType === 'DEEP_HUB'" class="mbot8">
+        <select ng-model="tileParams.displayMode" dku-bs-select class="view-select">
+            <option value="summary">Summary</option>
+            <option value="deephub/interactive_scoring">What if?</option>
+
+            <optgroup label="Explainability">
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_OBJECT_DETECTION'" value="deephub/object-detection-confusion-matrix">Confusion matrix</option>
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_CLASSIFICATION'" value="deephub/image-classification-confusion-matrix">Confusion matrix</option>
+            </optgroup>
+            <optgroup label="Performance">
+                <option value="deephub/performance-metrics">Metrics</option>
+                <option ng-if="isClassification() && ModelDataUtils.hasProbas(modelData) && !isPartitionedModel()"   value="c_calibration">Probability calibration</option>
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_CLASSIFICATION'"  value="c_roc">ROC curve</option>
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_CLASSIFICATION' && hasPRCurve()"  value="c_precision_recall">PR curve</option>
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_CLASSIFICATION'"  value="c_density_chart">Density chart</option>
+                <option ng-if="modelData.coreParams.prediction_type === 'DEEP_HUB_IMAGE_OBJECT_DETECTION'" value="deephub/precision-recall">Precision-Recall</option>
+            </optgroup>
+            <optgroup label="Model information">
+                <option value="train">Training information</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div ng-if="insight.$savedModel.miniTask.taskType == 'CLUSTERING'" class="mbot8">
+        <select ng-model="tileParams.displayModeExtended" ng-change="onDisplayModeExtendedChange()" dku-bs-select class="view-select">
+            <option value="summary">Summary</option>
+
+            <optgroup ng-if="modelData.perf.variables_importance" label="Variables">
+                <option value="feature_importance" ng-if="modelData.perf.variables_importance">Feature importance</option>
+            </optgroup>
+
+            <optgroup label="Clusters">
+                <option value="hierarchy" ng-if="hasHierarchy()">Cluster hierarchy</option>
+                <option value="heatmap">Heatmap</option>
+                <option value="cluster-profiling" ng-if="modelData.clustersProfiling">Cluster profiles</option>
+                <option value="anomalies" ng-if="hasAnomalies()">Anomalies</option>
+                <option value="scatterplot-page">Scatter plot</option>
+                <option value="detailed_metrics">Detailed metrics</option>
+            </optgroup>
+
+            <optgroup label="Model information">
+                <option value="preparation">Data preparation</option>
+                <option value="features">Features</option>
+                <option value="algorithm">Algorithm</option>
+                <option value="train">Training information</option>
+            </optgroup>
+
+            <optgroup label="Model views">
+                <option ng-repeat="skin in modelSkins" ng-value="displayModeExtendedForSkin(skin.id)">{{(skin.desc.meta.label || skin.id)}}</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div ng-if="tileParams.displayMode == 'skins'">
+        <label class="control-label">Advanced options <i toggle="tooltip-right" container="body"
+                title="Custom parameters passed to the webapp config" class="icon-question-sign"></i></label>
+        <div class="controls">
+            <textarea json-object-pretty-view ng-model="tileParams.advancedOptions.customViews.viewParams"
+                class="tile-params__json-input"></textarea>
+        </div>
+    </div>
+
+</div>

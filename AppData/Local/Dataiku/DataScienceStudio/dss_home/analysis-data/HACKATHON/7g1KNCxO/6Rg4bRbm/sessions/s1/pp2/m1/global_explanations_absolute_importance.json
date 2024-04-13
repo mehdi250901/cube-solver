@@ -1,0 +1,24 @@
+{
+    "absoluteImportance": {
+        "Etiquette_GES_C": 0.5233324399897676,
+        "Etiquette_GES_A": 0.5621242299731148,
+        "Co\u00fbt_chauffage_\u00e9nergie_n\u00b02": 0.13706051166155273,
+        "Conso_5_usages/m\u00b2_\u00e9_finale": 3.065164548357295e-05,
+        "Etiquette_GES_D": 0.3571355366529219,
+        "Etiquette_GES_G": 0.0672117364047466,
+        "Etiquette_GES_E": 0.2724672817054838,
+        "Etiquette_GES_B": 0.3369225151578474,
+        "Qualit\u00e9_isolation_murs_insuffisante": 0.09700260213339397,
+        "Qualit\u00e9_isolation_enveloppe_insuffisante": 0.0974722232984855,
+        "Emission_GES_chauffage_\u00e9nergie_n\u00b02": 0.09267221165444059,
+        "Conso_5_usages_\u00e9_finale_\u00e9nergie_n\u00b02": 0.155015251586106,
+        "Surface_habitable_immeuble": 0.1169885690029195,
+        "Etiquette_GES_F": 0.144450910181802,
+        "Qualit\u00e9_isolation_murs_tr\u00e8s bonne": 0.07291178951748274,
+        "Type_b\u00e2timent_maison": 0.0357692335058762,
+        "Qualit\u00e9_isolation_enveloppe_bonne": 0.05721284833802579,
+        "Conso_chauffage_d\u00e9pensier_installation_chauffage_n\u00b01": 0.027712431868624977,
+        "Qualit\u00e9_isolation_menuiseries_tr\u00e8s bonne": 0.02888894201361173,
+        "Conso_5_usages_\u00e9_finale": 3.137067021599018e-05
+    }
+}

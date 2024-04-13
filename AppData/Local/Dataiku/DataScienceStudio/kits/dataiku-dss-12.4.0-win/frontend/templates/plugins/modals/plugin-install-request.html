@@ -1,0 +1,68 @@
+<div class="modal modal3 dku-modal request-plugin-modal" >
+    <div dku-modal-header-with-totem modal-totem="icon-lock" modal-title="Request {{requestType}} for plugin '{{storePlugin.meta.label || storePlugin.id}}'" modal-class="has-border"></div>
+    
+    <div class="alert alert-info plugin-request-modal__alert" ng-if="hasPreviousRequest && latestRequest.status==='PENDING' && !(plugin.installed && queryRequestType==='INSTALL_PLUGIN')">
+      <i class="mleftright8 icon-exclamation-sign"/>
+      <div style="display: inline-block;">
+        <span>You already requested an {{requestType}} for this plugin {{latestRequest.createdOn | friendlyTimeDeltaShort }}</span>
+      </div>
+    </div>
+
+    <div class="alert alert-info plugin-request-modal__alert" ng-if="plugin.installed && queryRequestType==='INSTALL_PLUGIN'">
+        <i class="mleftright8 icon-exclamation-sign"/>
+        <div style="display: inline-block;">
+            <span>This plugin is already installed</span>
+        </div>      
+    </div>
+
+    <div class="alert alert-info plugin-request-modal__alert" ng-if="isDevPlugin">
+        <i class="mleftright8 icon-exclamation-sign"/>
+        <div style="display: inline-block;">
+            <span>Dev plugins cannot be updated.</span>
+        </div>
+    </div>
+
+    <div class="modal-body plugin-request-modal__body">
+        <h5 class="font-weight-semi-bold"> You don't have the rights to {{requestType}} plugins.</h5>
+
+        <p> Contact the administrator for access. <a href="{{$root.versionDocRoot}}collaboration/requests.html" target="_blank">Learn more</a></p>
+
+        <textarea ng-model="ui.message" class="request-plugin-modal__message-input" placeholder="Optional message" maxlength="1000" ng-trim="false"/>
+        <span class="request-plugin-modal__message-input-counter" ng-style="ui.message.length === 1000 && {'color': 'red'}" >
+            {{ui.message.length}}/1000
+        </span>
+    </div>
+    <div class="modal-footer modal-footer-std-buttons">
+        <button ng-click="dismiss()" class="btn btn--text btn--secondary">Cancel</button>
+
+        <button 
+            ng-if="!hasPreviousRequest && !(plugin.installed && queryRequestType==='INSTALL_PLUGIN') && !isDevPlugin" 
+            ng-click="sendRequest(ui.message)" 
+            class="btn btn--text btn--primary">
+                Request {{requestType}}
+        </button>
+        <button
+            ng-if="hasPreviousRequest && !(plugin.installed && queryRequestType==='INSTALL_PLUGIN')"
+            toggle="tooltip"
+            data-placement="top"
+            class="btn btn--text btn--secondary plugin-card__button disabled">
+                Request sent
+        </button>
+        <button
+            ng-if="plugin.installed && queryRequestType==='INSTALL_PLUGIN'"
+            toggle="tooltip"
+            data-placement="top"
+            title="The plugin has already been installed"
+            class="btn btn--text btn--secondary plugin-card__button disabled">
+                Request {{requestType}}
+        </button>
+        <button
+            ng-if="isDevPlugin"
+            toggle="tooltip"
+            data-placement="top"
+            title="Dev plugins cannot be updated."
+            class="btn btn--text btn--secondary plugin-card__button disabled">
+                Request {{requestType}}
+        </button>
+    </div>
+</div>

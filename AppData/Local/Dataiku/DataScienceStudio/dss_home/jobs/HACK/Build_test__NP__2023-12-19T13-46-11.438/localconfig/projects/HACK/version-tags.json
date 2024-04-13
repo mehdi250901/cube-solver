@@ -1,0 +1,164 @@
+{
+  "tags": {
+    "ANALYSIS.VCuX5pJV": {
+      "versionNumber": 6,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702986952300,
+      "extendedProperties": {}
+    },
+    "ANALYSIS.eFwrHY1r": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702987515654,
+      "extendedProperties": {}
+    },
+    "ANALYSIS.fAPdXTX8": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991375560,
+      "extendedProperties": {}
+    },
+    "ANALYSIS.mRCpa65V": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991275894,
+      "extendedProperties": {}
+    },
+    "DASHBOARD.aoCrCx1": {
+      "versionNumber": 12,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702992344386,
+      "extendedProperties": {}
+    },
+    "DATASET.encoded_data": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702993301855,
+      "extendedProperties": {}
+    },
+    "DATASET.housing": {
+      "versionNumber": 10,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702985394753,
+      "extendedProperties": {}
+    },
+    "DATASET.housing_prepared": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702986901173,
+      "extendedProperties": {}
+    },
+    "DATASET.test": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991528766,
+      "extendedProperties": {}
+    },
+    "INSIGHT.4mhOkAV": {
+      "versionNumber": 1,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702992128422,
+      "extendedProperties": {}
+    },
+    "INSIGHT.7mpffNv": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991750366,
+      "extendedProperties": {}
+    },
+    "INSIGHT.ItT9e3I": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702992008008,
+      "extendedProperties": {}
+    },
+    "INSIGHT.u9g2nhh": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702992186835,
+      "extendedProperties": {}
+    },
+    "INSIGHT.uxiPMvh": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702990962160,
+      "extendedProperties": {}
+    },
+    "PROJECT.HACK": {
+      "versionNumber": 3,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702992186711,
+      "extendedProperties": {}
+    },
+    "RECIPE.compute_housing_prepared": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702986901188,
+      "extendedProperties": {}
+    },
+    "RECIPE.compute_test": {
+      "versionNumber": 2,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702993570998,
+      "extendedProperties": {}
+    },
+    "RECIPE.train_Predict_median_house_value__regression_": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991142604,
+      "extendedProperties": {}
+    },
+    "SAVED_MODEL.VDQd4HBP": {
+      "versionNumber": 0,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702991142587,
+      "extendedProperties": {}
+    },
+    "STATISTICS_WORKSHEET.91Kam1Ee1v": {
+      "versionNumber": 4,
+      "lastModifiedBy": {
+        "login": "admin"
+      },
+      "lastModifiedOn": 1702987353527,
+      "extendedProperties": {}
+    }
+  }
+}

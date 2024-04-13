@@ -1,0 +1,9 @@
+{
+  "installCorePackages": true,
+  "corePackagesSet": "PANDAS11",
+  "installJupyterSupport": true,
+  "dockerImageResources": "COPY",
+  "updateResourcesApiNode": false,
+  "conda": false,
+  "deploymentMode": "DSS_INTERNAL"
+}

@@ -1,0 +1,235 @@
+<div ng-show="connection.allowManagedDatasets">
+    <h2 class="settings-section-title">Naming rules for new datasets</h2>
+    <p>
+        <small class="help-inline" style="padding: 0">
+            These settings define how managed SQL datasets are mapped to
+            database tables. These settings are applied when creating a new managed SQL dataset.
+            You can always modify these afterwards in the SQL dataset settings.
+            They are also used to create temporary tables if the connection is used for bundled data.
+            See <doclink page="/connecting/relocation" title="the documentation" /> for more information.
+        </small>
+    </p>
+
+    <div class="control-group" ng-if="['Databricks', 'BigQuery', 'Snowflake', 'JDBC'].includes(connection.type)">
+        <label class="control-label" ng-switch="connection.type">
+            <span ng-switch-when="BigQuery">BigQuery project</span>
+            <span ng-switch-when="Snowflake">Database</span>
+            <span ng-switch-default>Catalog</span>
+        </label>
+        <div class="controls">
+            <input type="text" ng-model="connection.params.namingRule.catalog" class="exclude-from-smart-change"/>
+            <div class="help-inline" ng-if="connection.type == 'JDBC' || connection.type == 'Databricks' ">
+                Managed datasets will be created in this catalog. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+            <div class="help-inline" ng-if="connection.type == 'Snowflake'">
+                Managed datasets will be created in this database. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+            <div class="help-inline" ng-if="connection.type === 'BigQuery'">
+                Managed datasets will be created in this BigQuery project. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+        </div>
+    </div>
+    <div class="control-group" ng-if="['Databricks', 'BigQuery', 'Snowflake', 'JDBC'].includes(connection.type)">
+        <label class="control-label" ng-switch="connection.type">
+            <span ng-switch-default>Allow catalog override</span>
+            <span ng-switch-when="Snowflake">Allow database override</span>
+            <span ng-switch-when="BigQuery">Allow BigQuery project override</span>
+        </label>
+        <div class="controls">
+            <label>
+                <input type="checkbox" ng-model="connection.params.namingRule.canOverrideCatalogInManagedDatasetCreation" class="exclude-from-smart-change"/>
+                <div class="help-inline" ng-if="connection.type === 'JDBC' || connection.type == 'Databricks' ">
+                    If this is enabled, an option to choose a catalog will be presented to users each time they create a managed dataset on this connection
+                </div>
+                <div class="help-inline" ng-if="connection.type === 'Snowflake'">
+                    If this is enabled, an option to choose a database will be presented to users each time they create a managed dataset on this connection
+                </div>
+                <div class="help-inline" ng-if="connection.type === 'BigQuery'">
+                    If this is enabled, an option to choose a BigQuery project will be presented to users each time they create a managed dataset on this connection
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" ng-switch="connection.type">
+            <span ng-switch-when="BigQuery">BigQuery dataset</span>
+            <span ng-switch-default>Schema</span>
+        </label>
+        <div class="controls">
+            <input type="text" ng-model="connection.params.namingRule.schemaName" class="exclude-from-smart-change"/>
+            <div class="help-inline" ng-if="connection.type !== 'BigQuery'">
+                Managed datasets will be created in this schema. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+            <div class="help-inline" ng-if="connection.type === 'BigQuery'">
+                Managed datasets will be created in this BigQuery dataset. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" ng-switch="connection.type">
+            <span ng-switch-default>Allow schema override</span>
+            <span ng-switch-when="BigQuery">Allow BigQuery dataset override</span>
+        </label>
+        <div class="controls">
+            <label>
+                <input type="checkbox" ng-model="connection.params.namingRule.canOverrideSchemaInManagedDatasetCreation" class="exclude-from-smart-change"/>
+                <div class="help-inline" ng-if="connection.type !== 'BigQuery'">
+                    If this is enabled, an option to choose a schema will be presented to users each time they create a managed dataset on this connection
+                </div>
+                <div class="help-inline" ng-if="connection.type === 'BigQuery'">
+                    If this is enabled, an option to choose a BigQuery dataset will be presented to users each time they create a managed dataset on this connection
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="" class="control-label">Table prefix</label>
+        <div class="controls">
+            <input type="text" ng-model="connection.params.namingRule.tableNameDatasetNamePrefix" class="exclude-from-smart-change"/>
+            <div class="help-inline">
+                Table name for new managed datasets will be prefixed by this. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+        </div>
+    </div>
+    <div class="control-group">
+        <label for="" class="control-label">Table suffix</label>
+        <div class="controls">
+            <input type="text" ng-model="connection.params.namingRule.tableNameDatasetNameSuffix" class="exclude-from-smart-change"/>
+            <div class="help-inline">
+                Table name for new managed datasets will be suffixed by this. You may reference variables here, they will
+                be expanded dynamically
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-warning" ng-show="warnings.noVariableInTable">
+        Table and schema name do not include any variable reference. Datasets will be created with absolute names, which is
+        not recommended for relocation purposes and may cause name clashes.
+    </div>
+</div>
+
+<div class="control-group">
+    <h2 class="settings-section-title">Date settings</h2>
+    <label class="control-label">Default assumed timezone</label>
+    <div class="controls">
+        <select dku-bs-select="{liveSearch:true}" ng-model="connection.params.defaultAssumedTzForUnknownTz"
+                time-zone-list
+                ng-options="timezone_id as timezone_id for timezone_id in timezone_ids">
+            <option value="">Local time zone</option>
+        </select>
+        <span class="help-inline">Default “assumed time zone” selection when adding a dataset through this connection. This will be the default timezone assigned to timezone-less data when read in as a DSS date.</span>
+    </div>
+
+    <div class="control-group" ng-show="connection.type == 'Teradata'">
+        <label class="control-label">Default assumed time zone (Teradata equivalent)</label>
+        <div class="controls">
+            <select dku-bs-select="{liveSearch:true}" ng-model="connection.params.defaultAssumedDbTzForUnknownTz">
+                <option value="">Server default time zone</option>
+                <option value="Africa Egypt">Africa Egypt</option>
+                <option value="Africa Morocco">Africa Morocco</option>
+                <option value="Africa Namibia">Africa Namibia</option>
+                <option value="America Alaska">America Alaska</option>
+                <option value="America Aleutian">America Aleutian</option>
+                <option value="America Argentina">America Argentina</option>
+                <option value="America Atlantic">America Atlantic</option>
+                <option value="America Brazil">America Brazil</option>
+                <option value="America Central">America Central</option>
+                <option value="America Chile">America Chile</option>
+                <option value="America Cuba">America Cuba</option>
+                <option value="America Eastern">America Eastern</option>
+                <option value="America Mountain">America Mountain</option>
+                <option value="America Newfoundland">America Newfoundland</option>
+                <option value="America Pacific">America Pacific</option>
+                <option value="America Paraguay">America Paraguay</option>
+                <option value="America Uruguay">America Uruguay</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Asia Gaza">Asia Gaza</option>
+                <option value="Asia Iran">Asia Iran</option>
+                <option value="Asia Iraq">Asia Iraq</option>
+                <option value="Asia Irkutsk">Asia Irkutsk</option>
+                <option value="Asia Israel">Asia Israel</option>
+                <option value="Asia Jordan">Asia Jordan</option>
+                <option value="Asia Kamchatka">Asia Kamchatka</option>
+                <option value="Asia Krasnoyarsk">Asia Krasnoyarsk</option>
+                <option value="Asia Lebanon">Asia Lebanon</option>
+                <option value="Asia Magadan">Asia Magadan</option>
+                <option value="Asia Omsk">Asia Omsk</option>
+                <option value="Asia Syria">Asia Syria</option>
+                <option value="Asia Vladivostok">Asia Vladivostok</option>
+                <option value="Asia West Bank">Asia West Bank</option>
+                <option value="Asia Yakutsk">Asia Yakutsk</option>
+                <option value="Asia Yekaterinburg">Asia Yekaterinburg</option>
+                <option value="Australia Central">Australia Central</option>
+                <option value="Australia Eastern">Australia Eastern</option>
+                <option value="Australia Western">Australia Western</option>
+                <option value="Europe Central">Europe Central</option>
+                <option value="Europe Eastern">Europe Eastern</option>
+                <option value="Europe Kaliningrad">Europe Kaliningrad</option>
+                <option value="Europe Moscow">Europe Moscow</option>
+                <option value="Europe Samara">Europe Samara</option>
+                <option value="Europe Western">Europe Western</option>
+                <option value="Indian Mauritius">Indian Mauritius</option>
+                <option value="Mexico Central">Mexico Central</option>
+                <option value="Mexico Northwest">Mexico Northwest</option>
+                <option value="Mexico Pacific">Mexico Pacific</option>
+                <option value="Pacific New Zealand">Pacific New Zealand</option>
+                <option value="Pacific Samoa">Pacific Samoa</option>
+                <option value="GMT-11">GMT-11</option>
+                <option value="GMT-10">GMT-10</option>
+                <option value="GMT-9">GMT-9</option>
+                <option value="GMT-8">GMT-8</option>
+                <option value="GMT-7">GMT-7</option>
+                <option value="GMT-6:30">GMT-6:30</option>
+                <option value="GMT-6">GMT-6</option>
+                <option value="GMT-5">GMT-5</option>
+                <option value="GMT-4">GMT-4</option>
+                <option value="GMT-3">GMT-3</option>
+                <option value="GMT-2">GMT-2</option>
+                <option value="GMT-1">GMT-1</option>
+                <option value="GMT">GMT</option>
+                <option value="GMT+1">GMT+1</option>
+                <option value="GMT+2">GMT+2</option>
+                <option value="GMT+3">GMT+3</option>
+                <option value="GMT+3:30">GMT+3:30</option>
+                <option value="GMT+4">GMT+4</option>
+                <option value="GMT+4:30">GMT+4:30</option>
+                <option value="GMT+5">GMT+5</option>
+                <option value="GMT+5:30">GMT+5:30</option>
+                <option value="GMT+5:45">GMT+5:45</option>
+                <option value="GMT+6">GMT+6</option>
+                <option value="GMT+6:30">GMT+6:30</option>
+                <option value="GMT+7">GMT+7</option>
+                <option value="GMT+8">GMT+8</option>
+                <option value="GMT+8:45">GMT+8:45</option>
+                <option value="GMT+9">GMT+9</option>
+                <option value="GMT+9:30">GMT+9:30</option>
+                <option value="GMT+10">GMT+10</option>
+                <option value="GMT+11">GMT+11</option>
+                <option value="GMT+11:30">GMT+11:30</option>
+                <option value="GMT+12">GMT+12</option>
+                <option value="GMT+13">GMT+13</option>
+                <option value="GMT+14">GMT+14</option>
+            </select>
+            <span class="help-inline">Default “assumed time zone” selection when performing operations on the Teradata engine, which uses different time zone names. This will be the default timezone assigned to timezone-less data when read in as DSS dates.</span>
+        </div>
+    </div>
+</div>
+
+<div class="control-group">
+    <h2 class="settings-section-title">Custom properties</h2>
+    <label class="control-label">Advanced connection properties</label>
+    <div class="controls">
+        <ng2-connection-properties-list [(items)]="connection.params.dkuProperties" (on-validity-change)="setAdvancedConnectionPropertiesValidity($event)"></ng2-connection-properties-list>
+        <span class="help-inline">
+            For specific use cases
+        </span>
+    </div>
+</div>

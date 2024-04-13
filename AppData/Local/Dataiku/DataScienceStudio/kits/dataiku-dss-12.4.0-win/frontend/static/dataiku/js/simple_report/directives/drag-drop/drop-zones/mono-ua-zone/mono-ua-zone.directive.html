@@ -1,0 +1,66 @@
+<ul add-remove ng-model="list" chart-drag-drop-list-replace="list" accept-drop="acceptCallback(data)" ng-if="!disabled" ng-inject="ChartColorUtils">
+    <li ng-repeat="measure in list track by $index" chart-drag-drop-list-item="list"
+        class="chartdef-dropped chartdef-dropped-measure">
+        <div contextual-menu class="measure-wrapper"
+            ng-click="!readOnly && measure.column && toggleContextualMenu($event)" cep-position="smart-left-bottom">
+            <span class="measure">
+                <i class="dku-icon-chevron-down-12 mright4 pull-left qa_charts_caret-options"
+                    ng-show="!readOnly && measure.column"></i>
+                <span class="colname measure-name" title="{{measure.column}}">{{measure.column}}</span>
+                <i class="dku-icon-trash-16 pull-right" ng-hide="readOnly" ng-click="remove($index);"></i>
+            </span>
+
+            <div class="contextualMenu" ng-show="contextualMenu">
+                <form class="dkuform-chart-options dkuform-chart-options--in-contextual-menu dkuform-horizontal">
+                    <h4 class="dku-small-title"> Formatting </h4>
+
+                    <div ng-if="measure.type === 'NUMERICAL'">
+                        <h4 class="dku-small-sub-title"> Values </h4>
+                        <span class="dku-tiny-text" ng-bind="ChartLabels.getMeasureNumberFormattingScopeLabel(chart.def, contextualMenuMeasureType, ChartFeatures.canDisplayValuesInChart(chart.def.type))"></span>
+
+                        <number-formatting-subform multiplier="measure.multiplier"
+                            decimal-places="measure.decimalPlaces" 
+                            digit-grouping="measure.digitGrouping"
+                            prefix="measure.prefix" suffix="measure.suffix"
+                            compute-mode="measure.computeMode">
+                        </number-formatting-subform>
+                    </div>
+
+                    <div ng-if="ChartFeatures.canRealiasMeasuresAndDimensions(chart.def)">
+                        <h4 class="dku-small-sub-title"> Label </h4>
+                        <span class="dku-tiny-text" ng-bind="ChartLabels.getMeasureLabelRealiasingScopeLabel(chart.def, contextualMenuMeasureType, ChartColorUtils.getColorDimensionOrMeasure(chart.def))"> </span>
+
+                        <display-label-subform measure="measure"></display-label-subform>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<ul add-remove ng-model="list" ng-if="disabled">
+    <li ng-repeat="measure in list track by $index" class="chartdef-dropped chartdef-dropped-measure">
+        <div contextual-menu class="measure-wrapper"
+            ng-click="!readOnly && measure.column && toggleContextualMenu($event)" cep-position="smart-left-bottom">
+            <span class="measure">
+                <i class="dku-icon-chevron-down-12 mright4 pull-left qa_charts_caret-options"
+                    ng-show="!readOnly && measure.column"></i>
+                <span class="colname measure-name" title="{{measure.column}}">{{measure.column}}</span>
+                <i class="dku-icon-trash-16 pull-right" ng-hide="readOnly" ng-click="remove($index);"></i>
+            </span>
+
+            <div class="contextualMenu" ng-show="contextualMenu">
+                <form class="dkuform-chart-options">
+                    <h4 class="dku-small-title"> Formatting </h4>
+                    <h4 class="dku-small-sub-title"> Values </h4>
+                    <span class="dku-tiny-text" ng-bind="ChartLabels.getMeasureNumberFormattingScopeLabel(chart.def, contextualMenuMeasureType, ChartFeatures.canDisplayValuesInChart(chart.def.type))"></span>
+                    <number-formatting-subform multiplier="measure.multiplier"
+                        digit-grouping="measure.digitGrouping"
+                        decimal-places="measure.decimalPlaces" prefix="measure.prefix" suffix="measure.suffix"
+                        compute-mode="measure.computeMode">
+                    </number-formatting-subform>
+                </form>
+            </div>
+        </div>
+    </li>
+</ul>

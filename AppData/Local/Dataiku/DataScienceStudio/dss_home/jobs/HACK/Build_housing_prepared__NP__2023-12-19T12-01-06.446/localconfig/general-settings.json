@@ -1,0 +1,592 @@
+{
+  "udrMode": "DEFAULT",
+  "npsSurveyEnabled": true,
+  "errorsReportingEnabled": true,
+  "opalsEnabled": true,
+  "dropDataWithDatasetDeleteEnabled": false,
+  "proxySettings": {
+    "port": 0
+  },
+  "mailSettings": {},
+  "maxRunningActivitiesPerJob": 5,
+  "maxRunningActivities": 5,
+  "maxRunningActivitiesPerKey": [],
+  "ldapSettings": {
+    "useTls": false,
+    "userFilter": "(\u0026(objectClass\u003dposixAccount)(uid\u003d{USERNAME}))",
+    "displayNameAttribute": "cn",
+    "emailAttribute": "mail",
+    "enableGroups": true,
+    "groupFilter": "(\u0026(objectClass\u003dposixGroup)(memberUid\u003d{USERNAME}))",
+    "groupNameAttribute": "cn",
+    "authorizedGroups": "",
+    "enabled": false,
+    "autoImportUsers": true,
+    "autoSyncUsersAtLoginTime": false,
+    "allowOnDemandUsersSync": true,
+    "defaultUserProfile": "READER",
+    "groupProfiles": [],
+    "authenticationEnabled": true,
+    "allowOnDemandUsersProvisioning": false,
+    "allGroupsFilter": "(objectClass\u003dposixGroup)",
+    "allUsersFilter": "(objectClass\u003dposixAccount)",
+    "usernameAttribute": "uid",
+    "groupMembershipAttribute": "memberUid",
+    "groupMembershipUserAttribute": "UID",
+    "remappingRules": []
+  },
+  "authSyncSettings": {
+    "syncUserGroups": true,
+    "syncUserDisplayName": true,
+    "syncUserEmail": true,
+    "syncUserProfile": true,
+    "missingUserAction": "DISABLE_USER",
+    "notInAuthorizedGroupsAction": "DISABLE_USER"
+  },
+  "pamSettings": {
+    "enabled": false,
+    "autoImportUsers": true,
+    "defaultUserProfile": "READER"
+  },
+  "ssoSettings": {
+    "protocol": "SAML",
+    "remappingRules": [],
+    "samlSPParams": {
+      "signRequests": false,
+      "displayNameAttribute": "firstName",
+      "emailAttribute": "email",
+      "enableGroups": false,
+      "groupsAttribute": "member"
+    },
+    "openIDParams": {
+      "scope": "openid email",
+      "claimKeyIdentifier": "email",
+      "claimKeyDisplayName": "displayName",
+      "claimKeyEmail": "email",
+      "enableGroups": false,
+      "claimKeyGroups": "groups",
+      "useGlobalProxy": true,
+      "usePKCE": true,
+      "tokenEndpointAuthMethod": "CLIENT_SECRET_BASIC"
+    },
+    "spnegoMode": "PREAUTH_KEYTAB",
+    "spnegoStripRealm": true,
+    "enabled": false,
+    "autoProvisionUsersAtLoginTime": true,
+    "autoSyncUsersAtLoginTime": false,
+    "defaultUserProfile": "READER",
+    "groupProfiles": [],
+    "authorizedGroups": ""
+  },
+  "azureADSettings": {
+    "useGlobalProxy": true,
+    "credentialMethod": "OAUTH2_SECRET",
+    "userQueryFilter": "mail eq \u0027$login\u0027",
+    "enabled": false,
+    "autoProvisionUsersAtLoginTime": true,
+    "autoSyncUsersAtLoginTime": true,
+    "allowOnDemandUsersSync": true,
+    "defaultUserProfile": "READER",
+    "groupProfiles": [],
+    "authorizedGroups": "",
+    "allowOnDemandUsersProvisioning": false,
+    "loginAttributeRef": "USER_PRINCIPAL_NAME",
+    "remappingRules": []
+  },
+  "customAuthSettings": {
+    "enabled": false,
+    "autoProvisionUsersAtLoginTime": true,
+    "autoSyncUsersAtLoginTime": true,
+    "allowOnDemandUsersSync": true,
+    "defaultUserProfile": "READER",
+    "authenticationEnabled": true,
+    "groupProfiles": [],
+    "authorizedGroups": "",
+    "allowOnDemandUsersProvisioning": true
+  },
+  "computablesAvailabilityMode": "EXPOSED_ONLY",
+  "globalCrossProjectBuildBehaviour": "STOP_AT_BOUNDARIES",
+  "noLoginMode": false,
+  "sparkSettings": {
+    "sparkEnabled": false,
+    "additionalSparkSubmitJars": [],
+    "environmentVariables": [],
+    "executionConfigsGenericOverrides": [],
+    "executionConfigs": [],
+    "configForJupyter": "default",
+    "configForSEK": "default",
+    "configForInteractive": "default",
+    "useNativeProcessors": false,
+    "engineCreationSettings": {
+      "executionEngine": "SPARK_SUBMIT",
+      "useGlobalMetastore": false
+    },
+    "yarnClusterSettings": {},
+    "databricksSettings": {
+      "enabled": false,
+      "credentialsMode": "GLOBAL",
+      "uploadSettings": {
+        "unsafeDirectUploadToDBFS": false
+      },
+      "userSpecificClusters": false,
+      "jdbcPathMidfix": "0"
+    },
+    "livy": {
+      "enabled": false,
+      "useURL": false,
+      "protocol": "HTTP",
+      "host": "127.0.0.1",
+      "port": 8998,
+      "auth": "NONE",
+      "useYarnCluster": true,
+      "fetchSize": 1000,
+      "connectionProperties": [],
+      "blacklistedProperties": "spark.master,spark.submit.deployMode,spark.yarn.jar,spark.yarn.jars,spark.yarn.archive,livy.rsc.server.idle-timeout",
+      "additionalUserToGrantAccessToWhenImpersonating": "livy"
+    }
+  },
+  "containerSettings": {
+    "executionConfigs": [],
+    "defaultWebappsK8SExposition": {
+      "type": "port_forward",
+      "params": {}
+    },
+    "defaultWebappsDockerExposition": {
+      "type": "docker_direct",
+      "params": {
+        "allInterfaces": false
+      }
+    },
+    "executionConfigsGenericOverrides": {
+      "properties": [],
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "workloadType": "ANY",
+      "dockerNetwork": "host",
+      "dockerResources": [],
+      "kubernetesResources": {
+        "memRequestMB": -1,
+        "memLimitMB": -1,
+        "cpuRequest": -1.0,
+        "cpuLimit": -1.0,
+        "customLimits": [],
+        "customRequests": []
+      },
+      "hostPathVolumes": [],
+      "isFinal": false,
+      "ensureNamespaceCompliance": false,
+      "createNamespace": false,
+      "baseImageType": "EXEC",
+      "prePushMode": "NONE",
+      "dockerTLSVerify": false
+    }
+  },
+  "k8sPoliciesSettings": {
+    "policies": []
+  },
+  "isAWSMarketplace": false,
+  "generateInitialPassword": false,
+  "pluginDevExplicitCommit": false,
+  "customFieldsPluginComponentOrder": [],
+  "customPolicyHooksPluginComponentOrder": [],
+  "metastoreCatalogsSettings": {
+    "synchronizeTo": {
+      "flavor": "HIVESERVER2",
+      "glueCredentialsMode": "DEFAULT"
+    }
+  },
+  "hadoopSettings": {
+    "kerberosLoginEnabled": false,
+    "extraConf": [],
+    "validationKernelsExtraEnv": []
+  },
+  "hiveSettings": {
+    "enabled": true,
+    "engineCreationSettings": {
+      "executionEngine": "HIVESERVER2"
+    },
+    "overrideDatabaseInLocalMetastore": false,
+    "hiveServer2Host": "127.0.0.1",
+    "hiveServer2Port": 10000,
+    "connectionProperties": [],
+    "additionalUserToGrantAccessToWhenImpersonating": "hive",
+    "addWriteACLOnDataUsabilityACL": false,
+    "preCreateManagedDatasetFolderBeforeMetastoreSyncForHS2Recipes": true,
+    "preCreateManagedDatasetFolderBeforeMetastoreSyncForMUSHS2Recipes": false,
+    "addCompressionCommands": false,
+    "executionConfigsGenericOverrides": [],
+    "executionConfigs": [],
+    "useURL": false,
+    "canChart": false,
+    "configForHiveRuntime": "default"
+  },
+  "impalaSettings": {
+    "enabled": false,
+    "useSimbaDriver": false,
+    "authBehavior": "KERBEROS_FALLBACK_NOAUTH",
+    "credentialsMode": "GLOBAL",
+    "useSsl": false,
+    "isSelfSigned": false,
+    "datanodes": [],
+    "port": 21050,
+    "preCreateManagedDatasetFolderBeforeMetastoreSyncForDirectWriteRecipes": true,
+    "additionalUserToGrantAccessToWhenImpersonating": "impala",
+    "useURL": false,
+    "connectionProperties": [],
+    "engineCreationSettings": {
+      "streamMode": true
+    }
+  },
+  "security": {
+    "hideVersionStringsWhenNotLogged": false,
+    "hideErrorStacks": false,
+    "secureCookies": false,
+    "sameSiteNoneCookies": false,
+    "secureSecretKeys": true,
+    "sessionsMaxTotalTimeMinutes": 0,
+    "sessionsMaxIdleTimeMinutes": 0,
+    "forceSingleSessionPerUser": false,
+    "restrictUsersAndGroupsVisibility": false,
+    "caseSensitiveLogins": true,
+    "webappsIsolationMode": "NONE",
+    "restrictEasterEggsEvenForAdmin": false,
+    "postLogoutBehavior": "LOGGED_OUT_PAGE",
+    "enableCodeEnvResources": true,
+    "requireProjectAdminPermissionToExportAndBundleProjects": false,
+    "enableEmailAndDisplayNameModification": false
+  },
+  "webAppSecuritySettings": {
+    "requiredAuthenticationMode": "ALL_BUT_ADMIN_WHITELIST",
+    "requiredAuthenticationWhitelist": [],
+    "vanityURLs": [],
+    "disableAccessToken": false,
+    "accessTokenWhitelist": [],
+    "redirectMode": "DEFAULT",
+    "trustedCodePolicy": "NOBODY"
+  },
+  "debounceDelayForWikiArticleSave": 300000,
+  "deployerClientSettings": {
+    "mode": "LOCAL",
+    "trustAllSSLCertificates": false,
+    "warningOnUsedPluginsOnly": false
+  },
+  "apiDeployerServerSettings": {
+    "stages": [
+      {
+        "id": "Development",
+        "desc": "For applications development"
+      },
+      {
+        "id": "Test",
+        "desc": "Acceptance testing"
+      },
+      {
+        "id": "Production",
+        "desc": "Running live for users"
+      }
+    ]
+  },
+  "projectDeployerServerSettings": {
+    "stages": [
+      {
+        "id": "Development",
+        "desc": "For applications development"
+      },
+      {
+        "id": "Test",
+        "desc": "Acceptance testing"
+      },
+      {
+        "id": "Production",
+        "desc": "Running live for users"
+      }
+    ]
+  },
+  "remoteDesignNodeCreds": [],
+  "deployerServerEnabledDespiteRemote": false,
+  "governIntegrationSettings": {
+    "enabled": false,
+    "trustAllSSLCertificates": false
+  },
+  "graphiteReportingDelay": 0,
+  "disableAutomaticTriggers": false,
+  "triggerCountdownDuration": 60,
+  "achievementsDisabled": false,
+  "projectStatusList": [
+    {
+      "name": "Sandbox",
+      "color": "#4285F4"
+    },
+    {
+      "name": "Draft",
+      "color": "#77bec2"
+    },
+    {
+      "name": "In use",
+      "color": "#94BF51"
+    },
+    {
+      "name": "In production",
+      "color": "#ee874a"
+    },
+    {
+      "name": "Archived",
+      "color": "#CCCCCC"
+    }
+  ],
+  "homeMessages": [],
+  "git": {
+    "enforcedConfigurationRules": [
+      {
+        "allowGit": true,
+        "remoteWhitelist": [
+          "^(?:git|ssh|https?|git@[-\\w.]+):(\\/\\/)?(.*?)(\\.git)?(\\/?|\\#[-\\d\\w._]+?)$"
+        ],
+        "gitConfigurationOptions": [],
+        "dssControlsSSHCommand": true
+      }
+    ]
+  },
+  "globalTagsCategories": [],
+  "quickSharingElementsEnabled": true,
+  "pluginInstallRequestsEnabled": true,
+  "projectVisibility": {
+    "visibilityMode": "DISABLED_BY_DEFAULT",
+    "accessRequestsMode": "DISABLED_BY_DEFAULT"
+  },
+  "appVisibility": {
+    "visibilityMode": "DISABLED_BY_DEFAULT",
+    "accessRequestsMode": "DISABLED_BY_DEFAULT"
+  },
+  "objectSharingRequestsMode": "DISABLED_BY_DEFAULT",
+  "notifications": {
+    "notifyOnUserConnection": "ALL",
+    "notifyOnTaskStartAndStop": "ALL_WITH_ACCESS_TO_PROJECT"
+  },
+  "impersonation": {
+    "enabled": false,
+    "useHadoopDelegationTokens": true,
+    "userRules": [],
+    "groupRules": []
+  },
+  "limits": {
+    "memSampleBytes": {
+      "soft": 104857600,
+      "hard": 524288000
+    },
+    "shakerMemTableBytes": {
+      "soft": -1,
+      "hard": 524288000
+    },
+    "attachmentBytes": {
+      "soft": -1,
+      "hard": -1
+    }
+  },
+  "cgroupSettings": {
+    "enabled": false,
+    "hierarchiesMountPoint": "/sys/fs/cgroup",
+    "mlKernels": {
+      "targets": []
+    },
+    "pythonRRecipes": {
+      "targets": []
+    },
+    "pythonRSparkRecipes": {
+      "targets": []
+    },
+    "pythonScenarios": {
+      "targets": []
+    },
+    "jupyterKernels": {
+      "targets": []
+    },
+    "mlRecipes": {
+      "targets": []
+    },
+    "pythonMacros": {
+      "targets": []
+    },
+    "rmarkdownBuilders": {
+      "targets": []
+    },
+    "webappDevBackends": {
+      "targets": []
+    },
+    "eda": {
+      "targets": []
+    },
+    "edaRecipes": {
+      "targets": []
+    },
+    "metricsChecks": {
+      "targets": []
+    },
+    "deploymentHooks": {
+      "targets": []
+    },
+    "devLambdaServer": {
+      "targets": []
+    },
+    "cgroups": []
+  },
+  "defaultDatasetCreationSettings": {
+    "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+    "virtualizable": false,
+    "allowUploadsWithoutConnection": true
+  },
+  "defaultRecipeCreationSettings": {
+    "prepareRecipeColumnTypeMode": "KEEP_STRONGLY_TYPED_INPUTS"
+  },
+  "recipeEnginesPreferences": {
+    "forbiddenEngines": [],
+    "enginesPreferenceOrder": [],
+    "forbiddenByRecipeType": {},
+    "preferenceByRecipeType": {}
+  },
+  "corsSettings": {
+    "accessControlAllowOriginRegExps": [],
+    "accessControlExposeHeaders": [],
+    "accessControlAllowMethods": [],
+    "accessControlAllowHeaders": [],
+    "accessControlAllowCredentials": false
+  },
+  "webappsSettings": {},
+  "alationSettings": {
+    "enabled": false
+  },
+  "graphicsExportsEnabled": false,
+  "codeEnvs": {
+    "condaInstallExtraOptions": [],
+    "condaCreateExtraOptions": [],
+    "pipInstallExtraOptions": [],
+    "virtualenvCreateExtraOptions": [],
+    "cranMirrorURL": "https://cloud.r-project.org",
+    "useConda": false
+  },
+  "personalHomePages": {
+    "articles": []
+  },
+  "helpCenterSupportLinks": [],
+  "internalDatabase": {
+    "externalConnectionsMaxIdleTimeMS": 600000,
+    "externalConnectionsValidationIntervalMS": 180000,
+    "maxPooledExternalConnections": 50,
+    "builtinConnectionsMaxIdleTimeMS": 1800000,
+    "builtinConnectionsValidationIntervalMS": 600000,
+    "maxPooledBuiltinConnectionsPerDatabase": 50
+  },
+  "licensingSettings": {
+    "trialBehavior": "ENABLED_IF_PRESENT_IN_LICENSE",
+    "noneUsersCallToActionBehavior": "ALLOW_REQUEST_ACCESS",
+    "userProfileForTrialsStartedByNoneUsers": "DESIGNER",
+    "trialExpirationBehavior": "SWITCH_TO_NONE",
+    "trialExpirationTargetProfile": "READER",
+    "allowRequestAccessWithStartedTrial": true
+  },
+  "virtualWebAppBackendSettings": {
+    "mode": "USE_DEFAULT",
+    "preventOverride": false,
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    }
+  },
+  "uiCustomizationSettings": {
+    "showTraditionalHadoop": true,
+    "showR": true,
+    "showScala": true,
+    "hideDatasetTypes": [],
+    "showDatasetTypesForWhichThereIsNoConnection": false,
+    "highlightedDatasets": [
+      "UploadedFiles",
+      "search_and_import"
+    ]
+  },
+  "eventServerSettings": {
+    "targets": [],
+    "queueSize": 5000,
+    "requireAuthenticationForEvents": false,
+    "eventsAuthenticationKeys": [],
+    "requireAuthenticationForStats": false,
+    "statsAuthenticationKeys": []
+  },
+  "helpIntegrationEnabled": true,
+  "openTicketsFromOpalsEnabled": true,
+  "auditTrailSettings": {
+    "targets": [
+      {
+        "type": "LOG4J",
+        "appendTopicToLogger": true,
+        "topicsFiltering": "ALL",
+        "topics": [],
+        "routingKeysFiltering": "ALL",
+        "routingKeys": []
+      }
+    ]
+  },
+  "computeResourceUsageReportingSettings": {
+    "periodicKubernetesUsageReporting": false,
+    "includeBuiltinCluster": false,
+    "namespacePattern": "^(?!kube-).*"
+  },
+  "streamingEnabled": false,
+  "dssPortRange": {
+    "enabled": false,
+    "start": 1024,
+    "end": 65535,
+    "autoSparkConfig": false
+  },
+  "autoAcceptSchemaChangeAtEndOfFlow": true,
+  "sanityCheckExclusionList": [],
+  "generativeAISettings": {
+    "huggingFaceLocalSettings": {
+      "maxConcurrentKernels": 2,
+      "kernelIdleTTLSeconds": 1200
+    }
+  },
+  "aiDrivenAnalyticsSettings": {
+    "dataikuAIServicesTermsOfUseAccepted": false,
+    "prepareAICompletionEnabled": false,
+    "prepareAICompletionSendSampleValues": true,
+    "prepareAICompletionTelemetryEnabled": true,
+    "aiExplanationsEnabled": false,
+    "aiExplanationsTelemetryEnabled": true
+  },
+  "codeAssistantSettings": {
+    "codeAssistantEnabled": false
+  },
+  "dataikuStorySettings": {
+    "enabled": false,
+    "trustAllSSLCertificates": false
+  },
+  "codeEnvInstallRequestsEnabled": true,
+  "popularDatasetsSettings": {
+    "enablePopularDatasets": true,
+    "maxDaysSinceLastRebuild": 30,
+    "maxDaysSinceUseByANewRecipe": 60,
+    "minShares": 3,
+    "onlyFromDataCollections": false,
+    "onlyTrendingDatasets": false
+  },
+  "recoBannerMustReads": []
+}

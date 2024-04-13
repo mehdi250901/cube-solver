@@ -1,0 +1,91 @@
+{
+  "connections": {
+    "filesystem_managed": {
+      "params": {
+        "root": "${dip.home}/managed_datasets",
+        "forcePathsOnDatasetsImport": true,
+        "manageLocalACLsForManagedFolders": true,
+        "dkuProperties": [],
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": true,
+      "allowManagedDatasets": true,
+      "allowManagedFolders": false,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "customFields": {},
+      "credentialsMode": "GLOBAL",
+      "customBasicConnectionCredentialProviderParams": [],
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "filesystem_folders": {
+      "params": {
+        "root": "${dip.home}/managed_folders",
+        "forcePathsOnDatasetsImport": true,
+        "manageLocalACLsForManagedFolders": true,
+        "dkuProperties": [],
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": true,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "customFields": {},
+      "credentialsMode": "GLOBAL",
+      "customBasicConnectionCredentialProviderParams": [],
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "filesystem_root": {
+      "params": {
+        "root": "/",
+        "forcePathsOnDatasetsImport": true,
+        "manageLocalACLsForManagedFolders": true,
+        "dkuProperties": [],
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "customFields": {},
+      "credentialsMode": "GLOBAL",
+      "customBasicConnectionCredentialProviderParams": [],
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    }
+  }
+}

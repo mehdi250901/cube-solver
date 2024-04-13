@@ -1,0 +1,21 @@
+<table class="table detailed-metrics-table mbot16 mtop16">
+    <caption class="sr-only">Detailed performance metrics table</caption>
+    <tr ng-if="$ctrl.metrics.columns.length > 1" >
+        <th></th>
+        <th ng-repeat="column in $ctrl.metrics.columns">{{ column }}</th>
+    </tr>
+    <tr ng-repeat="metric in $ctrl.metrics.rows">
+        <td class="faic">
+            <span><span ng-if="isWeighted && !metric.isCustom">Weighted</span> {{ metric.displayName }}</span>
+            <i class="icon-question-sign detailed-metrics-table__metrics-info" toggle="tooltip" title="{{ metric.info }}"></i>
+            <i class="dku-icon-target-16" ng-if="metric.isEvaluationMetric" toggle="tooltip" title="Model evaluation metric"></i>
+            <custom-metric-details-button ng-if="metric.isCustom" metric-data="metric"></custom-metric-details-button>
+        </td>
+        <td class="detailed-metrics-table__row-value" ng-repeat="metricVariant in metric.variants">
+            <div ng-if="!metric.isCustom || metricVariant.didSucceed" ng-bind-html="metricVariant.formattedValue"></div>
+            <custom-metric-failure-popup ng-if="metric.isCustom && !metricVariant.didSucceed"
+                                         error="metricVariant.error" fmi="$ctrl.modelData.fullModelId">
+            </custom-metric-failure-popup>
+        </td>
+    </tr>
+</table>

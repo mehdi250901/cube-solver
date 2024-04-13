@@ -1,0 +1,24 @@
+2023-12-18 18:37:00.867 [CORE] Valid settings file not found. Using default values.
+2023-12-18 18:37:00.869 [CORE] WinGet, version [1.6.3421], activity [{1AE44992-6FF9-4284-8A74-0070A9ADD563}]
+2023-12-18 18:37:00.870 [CORE] OS: Windows.Desktop v10.0.22621.2861
+2023-12-18 18:37:00.870 [CORE] Command line Args: "C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.21.3421.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe" -Embedding
+2023-12-18 18:37:00.870 [CORE] Package: Microsoft.DesktopAppInstaller v1.21.3421.0
+2023-12-18 18:37:00.870 [CORE] IsCOMCall:1; Caller: C:\Windows\explorer.exe
+2023-12-18 18:37:00.916 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2023-12-18 18:37:02.335 [REPO] Response status: 200
+2023-12-18 18:37:02.337 [REPO] Sending http GET request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/information
+2023-12-18 18:37:02.853 [REPO] Response status: 200
+2023-12-18 18:37:02.862 [REPO] Creating new SQLite Index with version [Latest] at ':memory:'
+2023-12-18 18:37:02.862 [SQL ] Opening SQLite connection #1: ':memory:' [6, 0]
+2023-12-18 18:37:02.936 [REPO] Reading MSI UpgradeCodes
+2023-12-18 18:37:03.087 [REPO] Reading MSI UpgradeCodes
+2023-12-18 18:37:03.741 [SQL ] Opening SQLite connection #2: ':memory:' [6, 0]
+2023-12-18 18:37:03.780 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\mehdi\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db'
+2023-12-18 18:37:03.780 [SQL ] Opening SQLite connection #3: 'C:\Users\mehdi\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\StoreEdgeFD\installed.db' [2, 0]
+2023-12-18 18:37:03.782 [REPO] Opened SQLite Index with version [1.6], last write [2023-04-03 10:35:06.000]
+2023-12-18 18:37:03.787 [REPO] Sending http POST request to: https://storeedgefd.dsx.mp.microsoft.com/v9.0/manifestSearch
+2023-12-18 18:37:04.081 [REPO] Response status: 200
+2023-12-18 18:37:04.115 [SQL ] Opening SQLite connection #4: ':memory:' [6, 0]
+2023-12-18 18:37:04.144 [REPO] Opening SQLite Index for ReadWrite at 'C:\Users\mehdi\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db'
+2023-12-18 18:37:04.145 [SQL ] Opening SQLite connection #5: 'C:\Users\mehdi\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\Microsoft.Winget.Source_8wekyb3d8bbwe\installed.db' [2, 0]
+2023-12-18 18:37:04.146 [REPO] Opened SQLite Index with version [1.6], last write [2023-09-19 11:33:43.000]

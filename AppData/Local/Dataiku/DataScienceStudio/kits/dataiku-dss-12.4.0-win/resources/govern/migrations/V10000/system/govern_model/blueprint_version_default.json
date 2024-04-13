@@ -1,0 +1,105 @@
+{
+  "name": "",
+  "instructions": "Do not edit the existing fields, only field additions are possible",
+  "uiDefinition": {
+    "views": {
+      "main": {
+        "type": "card",
+        "label": "Model info",
+        "description": "",
+        "viewComponent": {
+          "type": "container",
+          "label": "",
+          "layout": {
+            "type": "sequential",
+            "viewComponents": [
+              {
+                "type": "card-reference-field",
+                "label": "Dataiku model",
+                "fieldId": "dataiku_item",
+                "description": "",
+                "displayAddNewButton": false,
+                "blueprintIdViewIdPairs": []
+              },
+              {
+                "type": "card-reference-field",
+                "label": "Governed model versions",
+                "fieldId": "govern_model_versions",
+                "description": "",
+                "displayAddNewButton": false
+              },
+              {
+                "type": "card-reference-field",
+                "label": "Governed project",
+                "fieldId": "govern_project",
+                "description": "",
+                "displayAddNewButton": false
+              },
+              {
+                "type": "text-field",
+                "label": "Description",
+                "fieldId": "description",
+                "description": ""
+              }
+            ]
+          },
+          "description": ""
+        }
+      }
+    },
+    "uiStepDefinitions": {},
+    "artifactPageViewId": "main"
+  },
+  "logicalHookList": [],
+  "fieldDefinitions": {
+    "dataiku_item": {
+      "label": "Dataiku saved model",
+      "required": false,
+      "fieldType": "REFERENCE",
+      "references": [
+        {
+          "fieldId": "governed_by",
+          "blueprintId": "bp.system.dataiku_saved_model"
+        }
+      ],
+      "sourceType": "COMPUTE",
+      "description": "",
+      "computationType": "BACKREFERENCE"
+    },
+    "govern_project": {
+      "label": "Governed project",
+      "required": false,
+      "fieldType": "REFERENCE",
+      "sourceType": "STORE",
+      "description": "",
+      "allowedBlueprints": [
+        "bp.system.govern_project"
+      ]
+    },
+    "govern_model_versions": {
+      "label": "Governed model versions",
+      "required": false,
+      "fieldType": "REFERENCE",
+      "references": [
+        {
+          "fieldId": "govern_model",
+          "blueprintId": "bp.system.govern_model_version"
+        }
+      ],
+      "sourceType": "COMPUTE",
+      "description": "",
+      "computationType": "BACKREFERENCE"
+    },
+    "description": {
+      "label": "Description",
+      "required": false,
+      "fieldType": "TEXT",
+      "sourceType": "STORE",
+      "description": ""
+    }
+  },
+  "workflowDefinition": {
+    "stepDefinitions": []
+  },
+  "hierarchicalParentFieldId": "govern_project"
+}

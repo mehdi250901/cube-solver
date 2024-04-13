@@ -1,0 +1,72 @@
+{
+  "appInfo" : {
+    "build" : "232.9921.47",
+    "buildDate" : "2023-09-12T21:23:49.777Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2023-12-17T23:47:00.7835735Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.8 17.0.8+7-b1000.22"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "my_own_convolution.py",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Python SDK Python 3.11 (mehdi) C:\\Users\\mehdi\\anaconda3\\envs\\mehdi\\python.exe\" with changes in: \"Python SDK Python 3.10 (mehdi) C:\\Users\\mehdi\\venv\\Scripts\\python.exe\" with changes in: \"Python SDK Python 3.10 (mehdi) C:\\Users\\mehdi\\venv\\Scripts\\python.exe\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "collectingIndexableFilesTime" : 435902000,
+      "delayedPushPropertiesStageTime" : 1077071000,
+      "indexExtensionsTime" : 24991100,
+      "dumbModeStart" : "2023-12-17T23:46:59.2669181Z",
+      "dumbWallTimeWithPauses" : 1515660200,
+      "dumbWallTimeWithoutPauses" : 1515660200,
+      "updatingStart" : "2023-12-17T23:46:59.2628783Z",
+      "updatingEnd" : "2023-12-17T23:47:00.7825783Z",
+      "totalWallTimeWithPauses" : 1519347800,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 1519347800
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 7010,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 6884
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Python SDK Python 3.11 (mehdi) C:\\Users\\mehdi\\anaconda3\\envs\\mehdi\\python.exe",
+      "numberOfScannedFiles" : 5304,
+      "numberOfSkippedFiles" : 1,
+      "numberOfFilesForIndexing" : 5238,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 292569300,
+      "scanningTime" : 334581500,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 60624000,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 18536400,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Python SDK Python 3.10 (mehdi) C:\\Users\\mehdi\\venv\\Scripts\\python.exe",
+      "numberOfScannedFiles" : 1706,
+      "numberOfSkippedFiles" : 130,
+      "numberOfFilesForIndexing" : 1646,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 253587600,
+      "scanningTime" : 268749200,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 92703700,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 6454700,
+      "roots" : [ ]
+    } ]
+  }
+}
