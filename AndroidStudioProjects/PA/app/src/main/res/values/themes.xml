@@ -1,0 +1,8 @@
+<resources>
+    <!-- Supprimez ou commentez cette partie -->
+    <!-- <style name="Theme.PA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style> -->
+</resources>
