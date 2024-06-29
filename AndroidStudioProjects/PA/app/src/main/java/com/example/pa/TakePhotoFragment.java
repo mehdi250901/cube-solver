@@ -9,6 +9,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 
 import android.provider.MediaStore;
@@ -30,12 +31,14 @@ public class TakePhotoFragment extends Fragment {
     private Button buttonRetake;
     private String currentPhotoPath;
     private int photoStep;
+    private SharedViewModel sharedViewModel;
 
     private final ActivityResultLauncher<Intent> takePictureLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             result -> {
                 if (result.getResultCode() == requireActivity().RESULT_OK) {
                     setPic();
+                    sharedViewModel.addPhotoPath(currentPhotoPath);  // Stocke le chemin de la photo dans le ViewModel
                 }
             }
     );
@@ -46,11 +49,11 @@ public class TakePhotoFragment extends Fragment {
         if (getArguments() != null) {
             photoStep = getArguments().getInt("photoStep", 1);
         }
+        sharedViewModel = new ViewModelProvider(requireActivity()).get(SharedViewModel.class);
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_take_photo, container, false);
     }
 
@@ -92,9 +95,7 @@ public class TakePhotoFragment extends Fragment {
                 ex.printStackTrace();
             }
             if (photoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(requireContext(),
-                        "com.example.pa.provider",
-                        photoFile);
+                Uri photoURI = FileProvider.getUriForFile(requireContext(), "com.example.pa.provider", photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 takePictureLauncher.launch(takePictureIntent);
             }
@@ -105,11 +106,7 @@ public class TakePhotoFragment extends Fragment {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
         File storageDir = requireActivity().getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        File image = File.createTempFile(
-                imageFileName,
-                ".jpg",
-                storageDir
-        );
+        File image = File.createTempFile(imageFileName, ".jpg", storageDir);
         currentPhotoPath = image.getAbsolutePath();
         return image;
     }
