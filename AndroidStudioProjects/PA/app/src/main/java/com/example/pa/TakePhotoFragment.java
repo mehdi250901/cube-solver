@@ -29,6 +29,7 @@ public class TakePhotoFragment extends Fragment {
     private Button buttonValidate;
     private Button buttonRetake;
     private String currentPhotoPath;
+    private int photoStep;
 
     private final ActivityResultLauncher<Intent> takePictureLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
@@ -38,6 +39,14 @@ public class TakePhotoFragment extends Fragment {
                 }
             }
     );
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            photoStep = getArguments().getInt("photoStep", 1);
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -57,9 +66,17 @@ public class TakePhotoFragment extends Fragment {
         buttonTakePhoto.setOnClickListener(v -> dispatchTakePictureIntent());
 
         buttonValidate.setOnClickListener(v -> {
-            // Naviguer vers le fragment suivant
-            NavHostFragment.findNavController(TakePhotoFragment.this)
-                    .navigate(R.id.action_takePhotoFragment1_to_takePhotoFragment2);
+            if (photoStep < 6) {
+                // Naviguer vers le fragment suivant
+                Bundle bundle = new Bundle();
+                bundle.putInt("photoStep", photoStep + 1);
+                NavHostFragment.findNavController(TakePhotoFragment.this)
+                        .navigate(R.id.action_takePhotoFragment_to_next, bundle);
+            } else {
+                // Naviguer vers le résumé
+                NavHostFragment.findNavController(TakePhotoFragment.this)
+                        .navigate(R.id.action_takePhotoFragment_to_summaryFragment);
+            }
         });
 
         buttonRetake.setOnClickListener(v -> dispatchTakePictureIntent());

@@ -9,76 +9,36 @@
         android:id="@+id/mainFragment"
         android:name="com.example.pa.MainFragment"
         android:label="Main Fragment"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_takePhotoFragment"
-            app:destination="@id/takePhotoFragment1" />
+            app:destination="@id/takePhotoFragment"/>
     </fragment>
 
     <fragment
-        android:id="@+id/takePhotoFragment1"
+        android:id="@+id/takePhotoFragment"
         android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 1"
-        tools:layout="@layout/fragment_take_photo" >
+        android:label="Take Photo Fragment"
+        tools:layout="@layout/fragment_take_photo">
+        <argument
+            android:name="photoStep"
+            app:argType="integer"
+            android:defaultValue="1"/>
         <action
-            android:id="@+id/action_takePhotoFragment1_to_takePhotoFragment2"
-            app:destination="@id/takePhotoFragment2" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/takePhotoFragment2"
-        android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 2"
-        tools:layout="@layout/fragment_take_photo" >
+            android:id="@+id/action_takePhotoFragment_to_next"
+            app:destination="@id/takePhotoFragment">
+            <argument
+                android:name="photoStep"
+                app:argType="integer"/>
+        </action>
         <action
-            android:id="@+id/action_takePhotoFragment2_to_takePhotoFragment3"
-            app:destination="@id/takePhotoFragment3" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/takePhotoFragment3"
-        android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 3"
-        tools:layout="@layout/fragment_take_photo" >
-        <action
-            android:id="@+id/action_takePhotoFragment3_to_takePhotoFragment4"
-            app:destination="@id/takePhotoFragment4" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/takePhotoFragment4"
-        android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 4"
-        tools:layout="@layout/fragment_take_photo" >
-        <action
-            android:id="@+id/action_takePhotoFragment4_to_takePhotoFragment5"
-            app:destination="@id/takePhotoFragment5" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/takePhotoFragment5"
-        android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 5"
-        tools:layout="@layout/fragment_take_photo" >
-        <action
-            android:id="@+id/action_takePhotoFragment5_to_takePhotoFragment6"
-            app:destination="@id/takePhotoFragment6" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/takePhotoFragment6"
-        android:name="com.example.pa.TakePhotoFragment"
-        android:label="Take Photo Fragment 6"
-        tools:layout="@layout/fragment_take_photo" >
-        <action
-            android:id="@+id/action_takePhotoFragment6_to_summaryFragment"
-            app:destination="@id/summaryFragment" />
+            android:id="@+id/action_takePhotoFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/summaryFragment"
         android:name="com.example.pa.SummaryFragment"
         android:label="Summary Fragment"
-        tools:layout="@layout/fragment_summary" >
-    </fragment>
+        tools:layout="@layout/fragment_summary"/>
 </navigation>
