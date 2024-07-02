@@ -10,7 +10,7 @@ import java.awt.geom.Ellipse2D
 import java.awt.{Color, Shape}
 import java.text.SimpleDateFormat
 
-object NAVisualizer {
+object _01_NAVisualizer {
   def main(args: Array[String]): Unit = {
     // Initialiser SparkSession
     val spark = SparkSession.builder()

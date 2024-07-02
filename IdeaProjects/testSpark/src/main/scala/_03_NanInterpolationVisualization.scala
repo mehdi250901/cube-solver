@@ -11,7 +11,7 @@ import java.awt.geom.Ellipse2D
 import java.awt.{Color, Shape}
 import java.text.SimpleDateFormat
 
-object NanInterpolationVisualization {
+object _03_NanInterpolationVisualization {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("InterpolationVisualization")

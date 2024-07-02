@@ -1,6 +1,6 @@
 import org.apache.spark.sql.{SaveMode, SparkSession}
 
-object CsvBatchProcessingApp {
+object _00_CsvBatchProcessingApp {
   def main(args: Array[String]): Unit = {
     // Initialisation du SparkSession
     val spark: SparkSession = SparkSession.builder()

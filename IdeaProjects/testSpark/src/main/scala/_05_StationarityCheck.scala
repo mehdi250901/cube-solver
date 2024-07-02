@@ -2,7 +2,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions._
 
-object StationarityCheck {
+object _05_StationarityCheck {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("StationarityCheck")
