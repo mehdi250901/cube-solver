@@ -25,17 +25,16 @@ object _07_StationarityCheckAfterTransformation {
     // Créer une fenêtre pour les opérations de décalage
     val windowSpec = Window.orderBy("timestamp")
 
-    // Étape : Différenciation de premier ordre (déjà effectuée)
     // Afficher les résultats
-    dfWithTimestamp.select("timestamp", "log_signal_std_diff", "log_signal_rad_diff").show(10)
+    dfWithTimestamp.select("timestamp", "signal_std_diff", "signal_rad_diff").show(10)
 
     // Calcul des statistiques segmentées par semaine
     val segmentedStats = dfWithTimestamp.groupBy(window($"timestamp", "1 week"))
       .agg(
-        avg("log_signal_std_diff").alias("mean_signal_std_diff"),
-        stddev("log_signal_std_diff").alias("stddev_signal_std_diff"),
-        avg("log_signal_rad_diff").alias("mean_signal_rad_diff"),
-        stddev("log_signal_rad_diff").alias("stddev_signal_rad_diff")
+        avg("signal_std_diff").alias("mean_signal_std_diff"),
+        stddev("signal_std_diff").alias("stddev_signal_std_diff"),
+        avg("signal_rad_diff").alias("mean_signal_rad_diff"),
+        stddev("signal_rad_diff").alias("stddev_signal_rad_diff")
       )
     segmentedStats.show()
 

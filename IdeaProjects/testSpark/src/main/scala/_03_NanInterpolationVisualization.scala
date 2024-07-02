@@ -112,6 +112,8 @@ object _03_NanInterpolationVisualization {
     RefineryUtilities.centerFrameOnScreen(chartFrame)
     chartFrame.setVisible(true)
 
+    interpolatedSignalRadDf.select("_c0", "signal_std_interpolated", "signal_rad_interpolated", "pluie").show()
+
     // Sauvegarder les résultats dans un fichier CSV
     interpolatedSignalRadDf.select("_c0", "signal_std_interpolated", "signal_rad_interpolated", "pluie")
       .write.option("header", "true").csv("csvInter/nan_interpolated_signals")
