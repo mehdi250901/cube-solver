@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.pa.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_takePhotoFragment"
+            app:destination="@id/takePhotoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_jsonRetrievalFragment"
+            app:destination="@id/jsonRetrievalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/takePhotoFragment"
+        android:name="com.example.pa.TakePhotoFragment"
+        android:label="Take Photo Fragment"
+        tools:layout="@layout/fragment_take_photo">
+        <argument
+            android:name="photoStep"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <action
+            android:id="@+id/action_takePhotoFragment_to_next"
+            app:destination="@id/takePhotoFragment">
+            <argument
+                android:name="photoStep"
+                app:argType="integer" />
+        </action>
+        <action
+            android:id="@+id/action_takePhotoFragment_to_summaryFragment"
+            app:destination="@id/summaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.example.pa.SummaryFragment"
+        android:label="Summary Fragment"
+        tools:layout="@layout/fragment_summary">
+        <action
+            android:id="@+id/action_summaryFragment_to_jsonRetrievalFragment"
+            app:destination="@id/jsonRetrievalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/jsonRetrievalFragment"
+        android:name="com.example.pa.JsonRetrievalFragment"
+        android:label="JSON Retrieval Fragment"
+        tools:layout="@layout/fragment_json_retrieval">
+        <action
+            android:id="@+id/action_jsonRetrievalFragment_to_cubeInterfaceFragment"
+            app:destination="@id/cubeInterfaceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cubeInterfaceFragment"
+        android:name="com.example.pa.CubeInterfaceFragment"
+        android:label="Cube Interface Fragment"
+        tools:layout="@layout/fragment_cube_interface">
+        <action
+            android:id="@+id/action_cubeInterfaceFragment_to_solutionFragment"
+            app:destination="@id/solutionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/solutionFragment"
+        android:name="com.example.pa.SolutionFragment"
+        android:label="Solution Fragment"
+        tools:layout="@layout/fragment_solution" />
+</navigation>
